@@ -1,0 +1,6 @@
+framework module SnappersSDK {
+  umbrella header "SnappersSDK.h"
+
+  export *
+  module * { export * }
+}

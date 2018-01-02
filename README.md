@@ -3,6 +3,7 @@
 ## Step 1: Generate an APN .p12 certificate
 
 1. Create a APN .p12 certificate. you can follow the instructions here: https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522 .
+ * Note that when you convert Apple's APN .cer file to .p12, in the Keychain Access, its important that you only select the certificate and not its private-key child.
 2. Send us the APN certificate along with it's password and your app bundle id to info@snappers.tv .
 3. We will send you back a file named Snappers.plist to use in the next step.
 

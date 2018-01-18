@@ -128,4 +128,12 @@ class ViewController: UIViewController {
 }
 ```
 
+## API
 
+Swift:
++ (instancetype) sharedInstance;
+-(void) sendTestNotification:(NSString *)text delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
+-(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
+-(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
+-(void) signout:(void(^)(NSError *error))callback;
+@property (readonly) NSString *version;

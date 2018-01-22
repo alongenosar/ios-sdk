@@ -13,6 +13,7 @@
     needed” and your target is selected.
 2. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
 3. From target’s Capabilities tab, enable Push Notifications.
+4. From target’s Capabilities tab, under Background modes, enable Location updates.
 
 ## Step 3: Add Snappers SDK to your Project
 
@@ -40,11 +41,14 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
     <key>NSCameraUsageDescription</key>
-    <string>requires your camera for broadcasting videos</string>
+    <string>We require your camera for broadcasting videos</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>requires your location to invite you to broadcast events near you</string>
+    <string>We require your location so we can invite you to broadcast events near you</string>
+     <key>NSLocationAlwaysUsageDescription</key>
+    <string>We require your location so we can invite you to broadcast events near you</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>requires your microphone for broadcasting videos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We require your microphone for broadcasting videos</string>
 
     <key>NSAppTransportSecurity</key>
     <dict>

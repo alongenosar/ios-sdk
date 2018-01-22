@@ -14,7 +14,7 @@
 2. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
 3. From target’s Capabilities tab, enable Push Notifications.
 4. From target’s Capabilities tab, under Background modes, enable Location updates.
-5. Device orientation settings. Snappers works fine with any orientation settings, however allowing landscape orienations (left and right) will result in better user expirience, such as sending chat messages during live broadcast.
+5. Device orientation settings. Snappers works fine with any orientation settings, however allowing landscape orienations (left and right) will result in better user expirience, such as sending chat messages during a live broadcast.
 
 ## Step 3: Add Snappers SDK to your Project
 

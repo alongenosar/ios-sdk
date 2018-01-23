@@ -136,8 +136,10 @@ class ViewController: UIViewController {
 ## API
 
 ```objectivec
-// @discussion a test invitation notification request to the server.
-
+// @discussion Intended for debug purpeses, requests a test invitation notification.
+// @param message notification message
+// @param delay the time in seconds before sending the notification request, allowing the tester to recieve the notification while the application is in the background.
+// @param callback called when request completed. 
 -(void) sendTestNotification:(NSString *)message delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
 ```
 

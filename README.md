@@ -136,26 +136,33 @@ class ViewController: UIViewController {
 ## API
 
 ```objectivec
-//Sends a test invitation notification request to the server.
+// @discussion a test invitation notification request to the server.
+
 -(void) sendTestNotification:(NSString *)message delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
 ```
 
 
 
 ```objectivec
+// @discussion Enable/disables invitation notifications from Snappers Server
+
 -(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
 ```
-Enable/disables invitation notifications from Snappers Server
+
 
 ```objectivec
+// @discussion Returns the current notification enabled state throgh callback
+
 -(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
 ```
-Returns the current notification enabled state
+
 
 ```objectivec
+// @discussion Returns the current Snappers SDK version
+
 @property (readonly) NSString *version;
 ```
-Returns the current Snappers SDK version
+
 
 
 

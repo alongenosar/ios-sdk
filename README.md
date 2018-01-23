@@ -137,7 +137,7 @@ class ViewController: UIViewController {
 
 ```objectivec
 // @discussion Intended for debug purpeses, requests a test invitation notification.
-// @param message notification message
+// @param message notification message.
 // @param delay the time in seconds before sending the notification request, allowing the tester to recieve the notification while the application is in the background.
 // @param callback called when request completed. 
 
@@ -145,18 +145,19 @@ class ViewController: UIViewController {
 ```
 
 ```objectivec
-// @discussion Enable/disables invitation notifications from Snappers Server
+// @discussion Enables invitation notifications from Snappers server.
+// @param enabled enable or disable notifications.
+// @param callback called when request completed.
 
 -(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
 ```
 
-
 ```objectivec
-// @discussion Returns the current notification enabled state throgh callback
+// @discussion inquire the current notification enable state.
+// @param @param callback called with result when request completed.
 
 -(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
 ```
-
 
 ```objectivec
 // @discussion Returns the current Snappers SDK version

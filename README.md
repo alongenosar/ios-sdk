@@ -135,12 +135,26 @@ class ViewController: UIViewController {
 
 ## API
 
-@discussions Sends a test notification request to the server. Notifications invokes Snapper's broadcasting flow/
-@params message text to display in notification
-@param callback called back when notification request sent to the server.
-
 ```objectivec
 -(void) sendTestNotification:(NSString *)message delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
 ```
+Sends a test invitation notification request to the server.
+
+
+```objectivec
+-(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
+```
+Enable/disables invitation notifications from Snappers Server
+
+```objectivec
+-(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
+```
+Returns the current notification enabled state
+
+```objectivec
+@property (readonly) NSString *version;
+```
+Returns the current Snappers SDK version
+
 
 

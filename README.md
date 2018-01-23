@@ -136,9 +136,10 @@ class ViewController: UIViewController {
 ## API
 
 ```objectivec
+//Sends a test invitation notification request to the server.
 -(void) sendTestNotification:(NSString *)message delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
 ```
-Sends a test invitation notification request to the server.
+
 
 
 ```objectivec

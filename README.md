@@ -9,12 +9,12 @@
 
 ## Step 2: Configure App Settings
 
-1. Drag Snappers.plist file (sent with this SDK), to your Project navigator window, make sure “Copy item if
+1. Drag Snappers.plist file to your Project navigator window, make sure “Copy item if
     needed” and your target is selected.
 2. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
 3. From target’s Capabilities tab, enable Push Notifications.
 4. From target’s Capabilities tab, under Background modes, enable Location updates.
-5. Device orientation settings. Snappers works fine with any orientation settings, however allowing landscape orienations (left and right) will result in better user expirience, such as sending chat messages during a live broadcast.
+5.  From target’s General tab set your prefered Device orientation settings. Snappers works fine with any orientation settings, however allowing landscape orienations (both left and right) will result in better user expirience, such as sending alowing the user to send chat messages during a live broadcast.
 
 ## Step 3: Add Snappers SDK to your Project
 
@@ -60,7 +60,7 @@ Paste the following snippet into your existing plist.
 ```
 ## Step 5: Initialize Snappers
 
-You need to initialize Snappers in your AppDelegate class.
+Initialize Snappers SDK in your AppDelegate class.
 Add the following code to your AppDelegate.m file inside ​ **application didFinishLaunchingWithOptions​ ​** method​.
 *Note that it’s important that you initialize snappers before anything else
 
@@ -92,7 +92,7 @@ Objective-C
 
 ## Step 6: Test Snappers
 
-Snappers SDK is invoked automatically by reacting to push notifications. Go ahead and test it. Connect the follwing code to a button tap action in you ViewController class.
+Snappers SDK is invoked automatically by reacting to push notifications from Snappers server. Go ahead and test it. Connect the follwing code to a button's tap action in your ViewController class.
 
 Swift:
 ​ **​ViewController.swift**
@@ -135,10 +135,10 @@ class ViewController: UIViewController {
 
 ## API
 
-Swift:
-+ (instancetype) sharedInstance;
--(void) sendTestNotification:(NSString *)text delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
--(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
--(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
--(void) signout:(void(^)(NSError *error))callback;
-@property (readonly) NSString *version;
+```objectivec
+-(void) sendTestNotification:(NSString *)message delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
+```
+@discussions Sends a test notification request to the server. Notifications invokes Snapper's broadcasting flow/
+@params message text to display in notification
+@param callback called back when notification request sent to the server.
+

@@ -3,15 +3,18 @@
 ## Step 1: Generate an APN .p12 certificate
 
 1. Create a APN .p12 certificate. you can follow the instructions here: https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522 .
-2. Send us the APN certificate along with it's password and your app bundle id to info@snappers.tv .
+ * Note that when you convert Apple's APN .cer file to .p12, in the Keychain Access, its important that you only select the certificate and not its private-key child.
+2. Send us the .p12 certificate along with it's password and your app bundle id to info@snappers.tv .
 3. We will send you back a file named Snappers.plist to use in the next step.
 
 ## Step 2: Configure App Settings
 
-1. Drag Snappers.plist file (sent with this SDK), to your Project navigator window, make sure “Copy item if
+1. Drag Snappers.plist file to your Project navigator window, make sure “Copy item if
     needed” and your target is selected.
 2. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
 3. From target’s Capabilities tab, enable Push Notifications.
+4. From target’s Capabilities tab, under Background modes, enable Location updates.
+5.  From target’s General tab set your prefered Device orientation settings. Snappers works fine with any orientation settings, however allowing landscape orienations (both left and right) will result in better user expirience, such as sending alowing the user to send chat messages during a live broadcast.
 
 ## Step 3: Add Snappers SDK to your Project
 
@@ -39,11 +42,14 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
     <key>NSCameraUsageDescription</key>
-    <string>requires your camera for broadcasting videos</string>
+    <string>We require your camera for broadcasting videos</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>requires your location to invite you to broadcast events near you</string>
+    <string>We require your location so we can invite you to broadcast events near you</string>
+     <key>NSLocationAlwaysUsageDescription</key>
+    <string>We require your location so we can invite you to broadcast events near you</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>requires your microphone for broadcasting videos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We require your microphone for broadcasting videos</string>
 
     <key>NSAppTransportSecurity</key>
     <dict>
@@ -54,7 +60,7 @@ Paste the following snippet into your existing plist.
 ```
 ## Step 5: Initialize Snappers
 
-You need to initialize Snappers in your AppDelegate class.
+Initialize Snappers SDK in your AppDelegate class.
 Add the following code to your AppDelegate.m file inside ​ **application didFinishLaunchingWithOptions​ ​** method​.
 *Note that it’s important that you initialize snappers before anything else
 
@@ -86,7 +92,7 @@ Objective-C
 
 ## Step 6: Test Snappers
 
-Snappers SDK is invoked automatically by reacting to push notifications. Go ahead and test it. Connect the follwing code to a button tap action in you ViewController class.
+Snappers SDK is invoked automatically by reacting to push notifications from Snappers server. Go ahead and test it. Connect the follwing code to a button's tap action in your ViewController class.
 
 Swift:
 ​ **​ViewController.swift**
@@ -126,5 +132,39 @@ class ViewController: UIViewController {
     }];
 }
 ```
+
+## API
+
+```objectivec
+// @discussion Intended for debug purpeses, requests a test invitation notification.
+// @param message notification message.
+// @param delay the time in seconds before sending the notification request, allowing the tester to recieve the notification while the application is in the background.
+// @param callback called when request completed. 
+
+-(void) sendTestNotification:(NSString *)message delay:(NSTimeInterval)delay callback:(void(^)(NSError *error))callback;
+```
+
+```objectivec
+// @discussion Enables invitation notifications from Snappers server.
+// @param enabled enable or disable notifications.
+// @param callback called when request completed.
+
+-(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
+```
+
+```objectivec
+// @discussion inquire the current notification enable state.
+// @param @param callback called with result when request completed.
+
+-(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
+```
+
+```objectivec
+// @discussion Returns the current Snappers SDK version
+
+@property (readonly) NSString *version;
+```
+
+
 
 

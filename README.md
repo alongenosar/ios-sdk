@@ -72,9 +72,8 @@ Paste the following snippet into your existing plist.
 ```
 ## Step 5: Initialize Snappers SDK
 
-Initialize Snappers SDK in your AppDelegate class.
-Add the following code to your ViewController file inside ​ **viewDidLoad()​ ​** method​.
-Check if there are any errors in the callback
+Initialize Snappers SDK in your ViewController class inside ​ **viewDidLoad()​ ​** method​.
+Check for errors in the callback to ensure successful initialization
 
 Swift:
 ```swift

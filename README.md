@@ -28,6 +28,7 @@ from the terminal in your project directory type
 3. from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
 ## Step 3: Add required keys your info.plist file
+
 Snappers requires the following keys in the info.plist file, in order to work: 
 	Privacy - Camera Usage Description
 	Privacy - Location When In Use Usage Description

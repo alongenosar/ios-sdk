@@ -30,7 +30,7 @@ from the terminal in your project directory type
 
 ## Step 3: Add required keys to your info.plist file
 
-Snappers requires the following keys in the info.plist file
+Snappers requires the following keys to be addded to the info.plist file
 
 - Privacy - Camera Usage Description : Add description
 - Privacy - Location When In Use Usage Description : Add description

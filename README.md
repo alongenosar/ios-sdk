@@ -30,7 +30,6 @@ from the terminal in your project directory type
 ## Step 3: Add required keys your info.plist file
 
 Snappers requires the following keys in the info.plist file
-Either add them manually or use the following instructions
 
 - Privacy - Camera Usage Description : Add description
 - Privacy - Location When In Use Usage Description : Add description
@@ -40,7 +39,8 @@ Either add them manually or use the following instructions
 - Privacy - Photo Library Usage Description : Add description
 - App Transport Security Settings
 	* Allow Arbitrary Loads : YES
-
+	
+Either add them manually or use the following instructions
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml

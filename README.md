@@ -71,9 +71,11 @@ If you plan on using Snappers' Facebook or Twitter authentication, We'l require 
 - URL types
 	* item
 		- URL Schemes
+			- URL identifier : Facebook
 			- item : fb1973807389602856
 	* item
 		- URL Schemes
+			- URL identifier : Twitter
 			- item : twitterkit-c8k1VkrIs7tHDuHkcc5kzLJAX
 
 

@@ -29,7 +29,7 @@ Paste the following snippet into your existing plist.
     
 ```
 
-# Step 3: If you plan using Snapper's Facebook or Twitter authentication by adding the folowing to your info.plist file 
+## Step 3: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
 In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml

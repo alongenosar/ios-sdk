@@ -31,21 +31,23 @@ from the terminal in you project directory type
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml
-     <key>NSCameraUsageDescription</key>
-    <string>We require your camera for broadcasting videos</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We require your location so we can invite you to broadcast events near you</string>
-     <key>NSLocationAlwaysUsageDescription</key>
-    <string>We require your location so we can invite you to broadcast events near you</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>We require your microphone for broadcasting videos</string>
-
     <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>   
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>We require access to your camera for broadcasting videos</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We require access to your location to find relevant events for you and to validate users content origin</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We require access to your location  to find relevant events for you and to validate users content origin</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We require access to your location to find relevant events for you and to validate users content origin</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We requires access to your microphone for broadcasting videos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We require access to your photo library to allow you to upload prerecorded videos to our servers</string>   
 ```
 
 ## Step 4: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 

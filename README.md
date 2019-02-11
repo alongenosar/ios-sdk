@@ -1,9 +1,9 @@
 # Getting Started with the Snappers SDK for iOS
 
-## Instalation
+# Instalation
 We currently supports only Swift projects
 
-# CocoPods
+## CocoPods
 Add this to your Podfile 
 
 ```ruby

@@ -4,7 +4,7 @@
 We currently supports only Swift projects
 
 # CocoPods
-Add this to your Podsfile 
+Add this to your Podfile 
 
 ```ruby
     source 'https://github.com/alongenosar/SnappersSDK-podspec.git'
@@ -17,31 +17,23 @@ Add this to your Podsfile
     
     end
 ```
+## Step 1: Configure App Settings
+1. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
+2. From target’s Capabilities tab, enable Push Notifications.
+3. From target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
-1. Create a APN .p12 certificate. you can follow the instructions here: https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522 .
- * Note that when you convert Apple's APN .cer file to .p12, in the Keychain Access, its important that you only select the certificate and not its private-key child.
-2. Send us the .p12 certificate along with it's password and your app bundle id to info@snappers.tv .
-3. We will send you back a file named Snappers.plist to use in the next step.
+## Step 2: Configure permissions. add the following info.plist file
+In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
+Paste the following snippet into your existing plist.
+```xml
+    
+```
 
-## Step 2: Configure App Settings
-
-1. Drag Snappers.plist file to your Project navigator window, make sure “Copy item if
-    needed” and your target is selected.
-2. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
-3. From target’s Capabilities tab, enable Push Notifications.
-4. From target’s Capabilities tab, under Background modes, enable Location updates.
-5.  From target’s General tab set your prefered Device orientation settings. Snappers works fine with any orientation settings, however allowing landscape orienations (both left and right) will result in better user expirience, such as sending alowing the user to send chat messages during a live broadcast.
-
-## Step 3: Add Snappers SDK to your Project
-
-From target’s General tab, add the SnappersSDK.framework to the Embedded Binaries box.
-
-## Step 4: Configure Project’s info.plist file
-
+# Step 3: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
 In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml
-      
+     
 <key>CFBundleURLTypes</key>
     <array>
         <dict>
@@ -74,7 +66,7 @@ Paste the following snippet into your existing plist.
     </dict>
     
 ```
-## Step 5: Initialize Snappers
+## Step 4: Initialize Snappers
 
 Initialize Snappers SDK in your AppDelegate class.
 Add the following code to your AppDelegate.m file inside ​ **application didFinishLaunchingWithOptions​ ​** method​.

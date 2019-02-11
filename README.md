@@ -74,6 +74,7 @@ Paste the following snippet into your existing plist.
 Initialize SDK from your ViewController's ​ **viewDidLoad()​ ​** method​.
 Check for errors in the callback to ensure successful initialization
 
+**​ViewController.swift**
 Swift:
 ```swift
 import SnappersSDK
@@ -88,48 +89,14 @@ override func viewDidLoad() {
    
 ```
 ## Step 6: Present events screen
-Once Snappers SDK initialized, Present the event screen  
-
+Once Snappers initialized succsefully, Present Snappers event screen as follow:
 
 Swift:
-​ **​ViewController.swift**
 ```swift
-import UIKit
-import SnappersSDK
+SnappersSDK.shared.present(.mapView, style:.popup) { error in
 
-class ViewController: UIViewController {
-
-    @IBAction func sendTestNotification(_ sender: Any) {
-
-        Snappers.sharedInstance().sendTestNotification("Hello from Snappers", delay: 2) { (error) in
-            if error == nil {
-                print("Test notification sent successfully")
-            }
-            else {
-                print("Test notification sent error: \(String(describing: error))")
-            }
-        }
-    }
 }
 ```
-​ **​ViewController.m**
-```objectivec
-#import "ViewController.h"
-#import <SnappersSDK/SnappersSDK.h>
-
-@implementation​ ​ViewController
-
-- (IBAction)sendTestNotification:(id)sender {
-  
-    [[Snappers sharedInstance] sendTestNotification:@"Hello from Snappers" delay:2 callback:^(NSError *error) {
-        if(!error)
-            NSLog(@"Test notification sent successfully");
-        else
-            NSLog(@"Test notification sent error: %@",error);
-    }];
-}
-```
-
 ## API
 
 ```swift

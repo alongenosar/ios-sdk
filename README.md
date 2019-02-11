@@ -65,7 +65,7 @@ Paste the following snippet into your existing plist.
 <string>We require access to your photo library to allow you to upload prerecorded videos</string>   
 ```
 
-## Step 4: Facebook and Twitter authentication
+## Step 4: Facebook and Twitter authentication (Optional)
 If you plan on using Snappers' Facebook or Twitter authentication, We require some additioanl keys in the info.plist file
 - a
 *b

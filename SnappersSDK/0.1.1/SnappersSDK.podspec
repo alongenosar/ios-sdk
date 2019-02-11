@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SnappersSDK"
-  s.version      =  "0.1.0"
+  s.version      =  "0.1.1"
   s.swift_version = "4.0"
   s.summary      = "SnappersSDK allows developers to integrate Snapper's functionality into their project"
   s.description  = "SnappersSDK allows developers to integrate Snapper's functionality into their project SnappersSDK allows developers to integrate Snapper's functionality into their project"
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "AlonGenosar" => "alon@bootleg.co.il" }
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => 'https://github.com/alongenosar/SnappersSDK.git', :tag => '0.0.10' }
+  s.source       = { :git => 'https://github.com/alongenosar/SnappersSDK.git', :tag => '0.1.2' }
   # s.source       = { :http => 'https://s3.eu-central-1.amazonaws.com/snappers-assets/SDK/0.0.10.zip' }
   s.vendored_frameworks = 'SnappersSDK.framework'
   ####s.source_files = 'SnappersSDK/*.swift'

@@ -100,7 +100,7 @@ SnappersSDK.shared.present(.mapView, style:.popup) { error in
 
 ```
 
-## Step 6: Test event invitation notification:
+## Step 7: Test event invitation notification:
 Once Snappers initialized succsefully, you can mockup a broadcase invitation notification
 
 Swift:
@@ -157,7 +157,6 @@ func loginRegisteredUser( name:String, id:String? = nil, profilePicture:String? 
 	
 ```
 
-
 ```swift
 
 // @discussion Logout
@@ -165,6 +164,17 @@ func loginRegisteredUser( name:String, id:String? = nil, profilePicture:String? 
 
 func logout( _ callback:SnappersCallback? = nil) 
 	
+```
+
+```swift
+
+// @discussion Logout
+// @param eventId request event id from Snappers team
+// @param delay time interval before sending the notification to allow tester to close application
+// @param callback(error) finished callback
+
+func requestBroadcastInvitation( eventId:String, delay:TimeInterval = 3, _ callback:SnappersCallback?) 
+
 ```
 
 

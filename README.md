@@ -22,14 +22,14 @@ Add this to your Podfile
 2. In Xcode, from target’s Capabilities tab, enable Push Notifications.
 3. In Xcode, from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
-## Step 2: Configure permissions. add the following info.plist file
+## Step 2: Configure permissions by adding the following into your info.plist file
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml
     
 ```
 
-# Step 3: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
+# Step 3: If you plan using Snapper's Facebook or Twitter authentication by adding the folowing to your info.plist file 
 In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml

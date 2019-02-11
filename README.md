@@ -17,12 +17,17 @@ Add this to your Podfile
     
     end
 ```
-## Step 1: Configure App Settings
+from the terminal in you project directory type 
+```bash
+    pod install
+```
+
+## Step 2: Configure App Settings
 1. In Xcode, from target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
 2. from target’s Capabilities tab, enable Push Notifications.
 3. from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
-## Step 2: Configure permissions by adding the following into your info.plist file
+## Step 3: Configure permissions by adding the following into your info.plist file
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml
@@ -43,7 +48,7 @@ Paste the following snippet into your existing plist.
     </dict>   
 ```
 
-## Step 3: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
+## Step 4: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
 In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml   
@@ -63,7 +68,7 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
 ```
-## Step 4: Initialize Snappers
+## Step 5: Initialize Snappers
 
 Initialize Snappers SDK in your AppDelegate class.
 Add the following code to your AppDelegate.m file inside ​ **application didFinishLaunchingWithOptions​ ​** method​.

@@ -122,13 +122,31 @@ Swift:
 
 ```swift
 	// @discussion Presents Snappers view
-	// @param view currently only suporting .mapView
-	// @param style presnetation style available .fullscreen and .popup
+	// @param view  available options: .mapView
+	// @param style available options .fullscreen and .popup
 	// @param callback(error) finished callback
 
 	  func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)
 
 ```
+
+```swift
+	// @discussion Login via social networks
+	// @param view  available options: .facebook and .twitter
+	// @param callback(error) finished callback
+	 func login( method:SnappersLoginMethod, _ callback:SnappersCallback? = nil)
+	
+```
+
+```swift
+	// @discussion Logout
+	// @param callback(error) finished callback
+	  func logout( _ callback:SnappersCallback? = nil) 
+	
+```
+
+
+
 
 
 

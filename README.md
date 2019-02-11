@@ -140,7 +140,7 @@ SnappersSDK.shared.requestBroadcastInvitation(eventId: "EVENT ID") { error in
 
 ```
 
-## API
+# API
 
 ```swift
 

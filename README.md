@@ -110,9 +110,9 @@ import SnappersSDK
 .
 .
 override func viewDidLoad() {
-	SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SECRET") { error in
+    SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SECRET") { error in
 
-	}
+    }
 }
    
 ```

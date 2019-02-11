@@ -7,9 +7,7 @@ We currently only support projects written in Swift.
 Add this to your Podfile 
 
 ```ruby
-https://bitbucket.org/eitan_goldfrad/wowzatrunk/
-    source 'https://github.com/alongenosar/SnappersSDK-podspec.git'
-    source 'https://bitbucket.org/eitan_goldfrad/wowzatrunk'
+    source 'https://github.com/Snappers-tv/ios-sdk.git'
     source 'https://github.com/cocoaPods/Specs.git'
     target 'Your target name' do
     use_frameworks!

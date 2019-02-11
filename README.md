@@ -73,22 +73,20 @@ Paste the following snippet into your existing plist.
 ## Step 5: Initialize Snappers SDK
 
 Initialize Snappers SDK in your AppDelegate class.
-Add the following code to your AppDelegate.m file inside ​ **application didFinishLaunchingWithOptions​ ​** method​.
-*Note that it’s important that you initialize snappers before anything else
+Add the following code to your ViewController file inside ​ **viewDidLoad()​ ​** method​.
+Check if there are any errors in the callback
 
 Swift:
-In your ViewController add the folowing code to initialize Snappers SDK
-check if there are any errors in the callback
 ```swift
-	import SnappersSDK
-	.
-	.
-	.
-	override func viewDidLoad() {
-		SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SRECRET") { error in
+import SnappersSDK
+.
+.
+.
+override func viewDidLoad() {
+	SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SECRET") { error in
 
-		}
 	}
+}
    
 ```
 ## Step 6: Test Snappers

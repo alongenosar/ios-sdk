@@ -131,21 +131,33 @@ Swift:
 ```
 
 ```swift
-	// @discussion Login via social networks
+	// @discussion Login via social platform
 	// @param view  available options: .facebook and .twitter
 	// @param callback(error) finished callback
-	 func login( method:SnappersLoginMethod, _ callback:SnappersCallback? = nil)
+	
+	func login( method:SnappersLoginMethod, _ callback:SnappersCallback? = nil)
 	
 ```
 
 ```swift
-	// @discussion Logout
+	// @discussion Login via custom parameters provided by developer
+	// @param name display name
+	// @param id custom id 
+	// @param profilePicture path to profile picture url
 	// @param callback(error) finished callback
-	  func logout( _ callback:SnappersCallback? = nil) 
+	
+	func loginRegisteredUser( name:String, id:String? = nil, profilePicture:String? = nil, _ callback:SnappersCallback? = nil) {
 	
 ```
 
 
+```swift
+	// @discussion Logout
+	// @param callback(error) finished callback
+	
+	func logout( _ callback:SnappersCallback? = nil) 
+	
+```
 
 
 

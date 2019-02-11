@@ -28,7 +28,7 @@ from the terminal in your project directory type
 2. In the target’s Capabilities tab, enable Push Notifications.
 3. In the target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
-## Step 3: Add required keys your info.plist file
+## Step 3: Add required keys to your info.plist file
 
 Snappers requires the following keys in the info.plist file
 

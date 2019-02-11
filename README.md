@@ -110,7 +110,7 @@ Swift:
 
 ## API
 
-```swiftIntended
+```swift
 // @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
 // @param token account token as received from Snappers support team
 // @param secret account secret as received from Snappers support team

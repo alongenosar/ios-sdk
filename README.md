@@ -68,10 +68,14 @@ Paste the following snippet into your existing plist.
 ## Step 4: Facebook and Twitter authentication (Optional)
 If you plan on using Snappers' Facebook or Twitter authentication, We'l require some additional keys in the info.plist file
 
-- a
-	* b
-- a
-	* b
+- URL types
+	* item
+		- URL Schemes
+			- item : fb1973807389602856
+	* item
+		- URL Schemes
+			- item : twitterkit-c8k1VkrIs7tHDuHkcc5kzLJAX
+
 
 Either add them manually or use the following instructions:
 

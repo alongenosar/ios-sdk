@@ -146,7 +146,7 @@ func identify( token:String, secret:String, _ callback:SnappersCallback? = nil)
 // @param style available options .fullscreen and .popup
 // @param callback(error) finished callback
 
-  func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)
+func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)
 
 ```
 

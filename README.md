@@ -131,8 +131,7 @@ SnappersSDK.shared.present(.mapView, style:.popup) { error in
 ```
 
 ## Step 7: Test event invitation notification:
-Once Snappers initialized succsefully, you can mockup a broadcase invitation notification
-**this is for testing purposes only**
+For testing purposes only, you can mockup a broadcast invitation notification
 
 Swift:
 ```swift

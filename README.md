@@ -28,6 +28,15 @@ from the terminal in your project directory type
 3. from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
 ## Step 3: Configure permissions by adding the following into your info.plist file
+Snappers SDK required the following privecy descriptions in the info.plist file in order to work : 
+	
+	Privacy - Camera Usage Description
+	Privacy - Location When In Use Usage Description
+	Privacy - Location Always Usage Description
+	Privacy - Location Always and When In Use Usage Description
+	Privacy - Microphone Usage Description
+	Privacy - Photo Library Usage Description
+
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml

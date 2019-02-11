@@ -1,7 +1,7 @@
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation
-We currently support only Swift projects
+We currently only support projects written in Swift.
 
 ### CocoPods
 Add this to your Podfile 

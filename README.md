@@ -1,7 +1,7 @@
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation
-We currently supports only Swift projects
+We currently support only Swift projects
 
 ### CocoPods
 Add this to your Podfile 
@@ -23,9 +23,9 @@ from the terminal in your project directory type
 ```
 
 ## Step 2: Configure App Settings
-1. In Xcode, from target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
-2. from target’s Capabilities tab, enable Push Notifications.
-3. from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
+1. In Xcode, from the target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
+2. In the target’s Capabilities tab, enable Push Notifications.
+3. In the target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
 ## Step 3: Add required keys your info.plist file
 
@@ -64,7 +64,7 @@ Paste the following snippet into your existing plist.
 <string>We require access to your photo library to allow you to upload prerecorded videos</string>   
 ```
 
-## Step 4: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
+## Step 4: If you plan on using Snappers' Facebook or Twitter authentication, add the folowing to your info.plist file 
 In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml   
@@ -103,7 +103,7 @@ override func viewDidLoad() {
    
 ```
 ## Step 6: Present events map screen
-Once Snappers initialized succsefully, you can present the Snappers map screen as following:
+Once Snappers was initialized succsefully, you can present the Snappers map screen as follows:
 
 Swift:
 ```swift
@@ -116,6 +116,7 @@ SnappersSDK.shared.present(.mapView, style:.popup) { error in
 
 ## Step 7: Test event invitation notification:
 Once Snappers initialized succsefully, you can mockup a broadcase invitation notification
+**this is for testing purposes only**
 
 Swift:
 ```swift
@@ -182,7 +183,7 @@ func logout( _ callback:SnappersCallback? = nil)
 
 ```swift
 
-// @discussion Logout
+// @discussion Request mockup invitation *this is for testing purposes only*
 // @param eventId request event id from Snappers team
 // @param delay time interval before sending the notification to allow tester to close application
 // @param callback(error) finished callback

@@ -71,8 +71,7 @@ Paste the following snippet into your existing plist.
     </array>
 ```
 ## Step 5: Initialize Snappers SDK
-
-Initialize Snappers SDK in your ViewController class inside ​ **viewDidLoad()​ ​** method​.
+Initialize SDK from ViewController's ​ **viewDidLoad()​ ​** method​.
 Check for errors in the callback to ensure successful initialization
 
 Swift:
@@ -88,8 +87,8 @@ override func viewDidLoad() {
 }
    
 ```
-## Step 6: Test Snappers
-
+## Step 6: Present events screen
+Once Snappers
 Snappers SDK is invoked automatically by reacting to push notifications from Snappers server. Go ahead and test it. Connect the follwing code to a button's tap action in your ViewController class.
 
 Swift:

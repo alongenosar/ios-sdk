@@ -27,9 +27,8 @@ from the terminal in your project directory type
 2. from target’s Capabilities tab, enable Push Notifications.
 3. from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
-## Step 3: Configure permissions by adding the following into your info.plist file
-Snappers SDK required the following privecy descriptions in the info.plist file in order to work : 
-	
+## Step 3: Add required keys your info.plist file
+Snappers requires the following keys in the info.plist file, in order to work: 
 	Privacy - Camera Usage Description
 	Privacy - Location When In Use Usage Description
 	Privacy - Location Always Usage Description

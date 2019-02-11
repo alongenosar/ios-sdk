@@ -12,10 +12,10 @@ Add this to your Podsfile
     source 'https://github.com/CocoaPods/Specs.git'
     target 'Your target name' do
     use_frameworks!
-    .
-    .
-    .
+ 
     pod 'SnappersSDK'
+    
+    end
 ```
 
 1. Create a APN .p12 certificate. you can follow the instructions here: https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522 .

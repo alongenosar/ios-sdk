@@ -70,38 +70,27 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
 ```
-## Step 5: Initialize Snappers
+## Step 5: Initialize Snappers SDK
 
 Initialize Snappers SDK in your AppDelegate class.
 Add the following code to your AppDelegate.m file inside ​ **application didFinishLaunchingWithOptions​ ​** method​.
 *Note that it’s important that you initialize snappers before anything else
 
 Swift:
+In your ViewController add the folowing code to initialize Snappers SDK
+check if there are any errors in the callback
 ```swift
-import SnappersSDK
+	import SnappersSDK
+	.
+	.
+	.
+	override func viewDidLoad() {
+		SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SRECRET") { error in
 
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-      
-    Snappers.sharedInstance()
-    .
-    .
-    .
-
-}
+		}
+	}
+   
 ```
-Objective-C
-```objectivec
-#import <SnappersSDK/SnappersSDK.h>
-
-- (​BOOL​)application:(​UIApplication​ *)application didFinishLaunchingWithOptions:(​NSDictionary​ *)launchOptions {
-      
-      [Snappers sharedInstance];
-      .
-      .
-      .
-}
-```
-
 ## Step 6: Test Snappers
 
 Snappers SDK is invoked automatically by reacting to push notifications from Snappers server. Go ahead and test it. Connect the follwing code to a button's tap action in your ViewController class.

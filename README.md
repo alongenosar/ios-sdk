@@ -111,35 +111,24 @@ Swift:
 ## API
 
 ```swift
-// @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
-// @param token account token as received from Snappers support team
-// @param secret account secret as received from Snappers support team
-// @param callback(error) finished callback
+	// @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
+	// @param token account token as received from Snappers support team
+	// @param secret account secret as received from Snappers support team
+	// @param callback(error) finished callback
 
-public func identify(token:String,secret:String,_ callback:SnappersCallback? = nil) {
+	func identify( token:String, secret:String, _ callback:SnappersCallback? = nil)
+
 ```
 
-```objectivec
-// @discussion Enables invitation notifications from Snappers server.
-// @param enabled enable or disable notifications.
-// @param callback called when request completed.
+```swift
+	// @discussion Presents Snappers view
+	// @param view currently only suporting .mapView
+	// @param style presnetation style available .fullscreen and .popup
+	// @param callback(error) finished callback
 
--(void) enableNotifications:(BOOL)enabled callback:(void(^)(NSError *error,BOOL result))callback;
+	  func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)
+
 ```
-
-```objectivec
-// @discussion inquire the current notification enable state.
-// @param @param callback called with result when request completed.
-
--(void) isNotificationsEnabled:(void(^)(NSError *error,BOOL result))callback;
-```
-
-```objectivec
-// @discussion Returns the current Snappers SDK version
-
-@property (readonly) NSString *version;
-```
-
 
 
 

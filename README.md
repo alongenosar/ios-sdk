@@ -18,9 +18,9 @@ Add this to your Podfile
     end
 ```
 ## Step 1: Configure App Settings
-1. From target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
-2. From target’s Capabilities tab, enable Push Notifications.
-3. From target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
+1. In Xcode, from target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
+2. In Xcode, from target’s Capabilities tab, enable Push Notifications.
+3. In Xcode, from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
 ## Step 2: Configure permissions. add the following info.plist file
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"

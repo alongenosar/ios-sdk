@@ -66,11 +66,12 @@ Paste the following snippet into your existing plist.
 ```
 
 ## Step 4: Facebook and Twitter authentication (Optional)
-If you plan on using Snappers' Facebook or Twitter authentication, We require some additioanl keys in the info.plist file
+If you plan on using Snappers' Facebook or Twitter authentication, We'l require some additional keys in the info.plist file
+
 - a
-*b
--a
-*b
+	* b
+- a
+	* b
 
 Either add them manually or use the following instructions:
 

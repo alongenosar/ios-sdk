@@ -19,8 +19,8 @@ Add this to your Podfile
 ```
 ## Step 1: Configure App Settings
 1. In Xcode, from target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
-2. In Xcode, from target’s Capabilities tab, enable Push Notifications.
-3. In Xcode, from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
+2. from target’s Capabilities tab, enable Push Notifications.
+3. from target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
 ## Step 2: Configure permissions by adding the following into your info.plist file
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
@@ -38,13 +38,13 @@ Paste the following snippet into your existing plist.
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>fb229629484133090</string>
+                <string>fb1973807389602856</string>
             </array>
         </dict>
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>twitterkit-hLVnrpguWOeRUsYsmxVdCIoBu</string>
+                <string>twitterkit-c8k1VkrIs7tHDuHkcc5kzLJAX</string>
             </array>
         </dict>
     </array>

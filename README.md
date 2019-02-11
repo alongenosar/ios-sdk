@@ -1,6 +1,14 @@
 # Getting Started with the Snappers SDK for iOS
 
-## Step 1: Generate an APN .p12 certificate
+## Instalation
+Snappers SDK currently supports only Swift projects. We plan to aslo suppor Objective-C projects soon
+
+#CocoPods
+Add this to your Podsfile 
+
+```ruby
+    pod 'SnappersSDK'
+```
 
 1. Create a APN .p12 certificate. you can follow the instructions here: https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522 .
  * Note that when you convert Apple's APN .cer file to .p12, in the Keychain Access, its important that you only select the certificate and not its private-key child.

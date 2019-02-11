@@ -40,7 +40,8 @@ Snappers requires the following keys in the info.plist file
 - App Transport Security Settings
 	* Allow Arbitrary Loads : YES
 	
-Either add them manually or use the following instructions. 
+Either add them manually or use the following instructions.  
+
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml

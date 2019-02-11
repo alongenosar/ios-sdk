@@ -110,13 +110,13 @@ Swift:
 
 ## API
 
-```swift
-// @discussion Intended for debug purpeses, requests a test invitation notification.
-// @param message notification message.
-// @param delay the time in seconds before sending the notification request, allowing the tester to recieve the notification while the application is in the background.
-// @param callback called when request completed. 
+```swiftIntended
+// @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
+// @param token account token as received from Snappers support team
+// @param secret account secret as received from Snappers support team
+// @param callback(error) finished callback
 
-sendTestNotifiction(message:String?,delay:NSTimeInterval = 3,_ callback:((error:String?)->Void))
+public func identify(token:String,secret:String,_ callback:SnappersCallback? = nil) {
 ```
 
 ```objectivec

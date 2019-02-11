@@ -1,9 +1,9 @@
 # Getting Started with the Snappers SDK for iOS
 
-# Instalation
+## Step 1: Instalation
 We currently supports only Swift projects
 
-## CocoPods
+### CocoPods
 Add this to your Podfile 
 
 ```ruby
@@ -26,7 +26,21 @@ Add this to your Podfile
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml
-    
+     <key>NSCameraUsageDescription</key>
+    <string>We require your camera for broadcasting videos</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We require your location so we can invite you to broadcast events near you</string>
+     <key>NSLocationAlwaysUsageDescription</key>
+    <string>We require your location so we can invite you to broadcast events near you</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We require your microphone for broadcasting videos</string>
+
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>   
 ```
 
 ## Step 3: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 
@@ -48,21 +62,6 @@ Paste the following snippet into your existing plist.
             </array>
         </dict>
     </array>
-    <key>NSCameraUsageDescription</key>
-    <string>We require your camera for broadcasting videos</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We require your location so we can invite you to broadcast events near you</string>
-     <key>NSLocationAlwaysUsageDescription</key>
-    <string>We require your location so we can invite you to broadcast events near you</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>We require your microphone for broadcasting videos</string>
-
-    <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>  
 ```
 ## Step 4: Initialize Snappers
 

@@ -93,9 +93,11 @@ Once Snappers initialized succsefully, you can present the Snappers map screen a
 
 Swift:
 ```swift
+
 SnappersSDK.shared.present(.mapView, style:.popup) { error in
 
 }
+
 ```
 
 ## Step 6: Test event invitation notification:
@@ -103,59 +105,65 @@ Once Snappers initialized succsefully, you can mockup a broadcase invitation not
 
 Swift:
 ```swift
-    SnappersSDK.shared.requestBroadcastInvitation(eventId: "EVENT ID") { error in
-            
-    }
+
+SnappersSDK.shared.requestBroadcastInvitation(eventId: "EVENT ID") { error in
+
+}
+
 ```
 
 ## API
 
 ```swift
-	// @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
-	// @param token account token as received from Snappers support team
-	// @param secret account secret as received from Snappers support team
-	// @param callback(error) finished callback
 
-	func identify( token:String, secret:String, _ callback:SnappersCallback? = nil)
+// @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
+// @param token account token as received from Snappers support team
+// @param secret account secret as received from Snappers support team
+// @param callback(error) finished callback
 
-```
-
-```swift
-	// @discussion Presents Snappers view
-	// @param view  available options: .mapView
-	// @param style available options .fullscreen and .popup
-	// @param callback(error) finished callback
-
-	  func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)
+func identify( token:String, secret:String, _ callback:SnappersCallback? = nil)
 
 ```
 
 ```swift
-	// @discussion Login via social platform
-	// @param view  available options: .facebook and .twitter
-	// @param callback(error) finished callback
-	
-	func login( method:SnappersLoginMethod, _ callback:SnappersCallback? = nil)
+
+// @discussion Presents Snappers view
+// @param view  available options: .mapView
+// @param style available options .fullscreen and .popup
+// @param callback(error) finished callback
+
+  func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)
+
+```
+
+```swift
+// @discussion Login via social platform
+// @param view  available options: .facebook and .twitter
+// @param callback(error) finished callback
+
+func login( method:SnappersLoginMethod, _ callback:SnappersCallback? = nil)
 	
 ```
 
 ```swift
-	// @discussion Login via custom parameters provided by developer
-	// @param name display name
-	// @param id custom id 
-	// @param profilePicture path to profile picture url
-	// @param callback(error) finished callback
-	
-	func loginRegisteredUser( name:String, id:String? = nil, profilePicture:String? = nil, _ callback:SnappersCallback? = nil) {
+
+// @discussion Login via custom parameters provided by developer
+// @param name display name
+// @param id custom id 
+// @param profilePicture path to profile picture url
+// @param callback(error) finished callback
+
+func loginRegisteredUser( name:String, id:String? = nil, profilePicture:String? = nil, _ callback:SnappersCallback? = nil) {
 	
 ```
 
 
 ```swift
-	// @discussion Logout
-	// @param callback(error) finished callback
-	
-	func logout( _ callback:SnappersCallback? = nil) 
+
+// @discussion Logout
+// @param callback(error) finished callback
+
+func logout( _ callback:SnappersCallback? = nil) 
 	
 ```
 

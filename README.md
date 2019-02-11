@@ -17,7 +17,7 @@ Add this to your Podfile
     
     end
 ```
-from the terminal in you project directory type 
+from the terminal in your project directory type 
 ```bash
     pod install
 ```
@@ -71,7 +71,7 @@ Paste the following snippet into your existing plist.
     </array>
 ```
 ## Step 5: Initialize Snappers SDK
-Initialize SDK from ViewController's ​ **viewDidLoad()​ ​** method​.
+Initialize SDK from your ViewController's ​ **viewDidLoad()​ ​** method​.
 Check for errors in the callback to ensure successful initialization
 
 Swift:
@@ -88,8 +88,8 @@ override func viewDidLoad() {
    
 ```
 ## Step 6: Present events screen
-Once Snappers
-Snappers SDK is invoked automatically by reacting to push notifications from Snappers server. Go ahead and test it. Connect the follwing code to a button's tap action in your ViewController class.
+Once Snappers SDK initialized, Present the event screen  
+
 
 Swift:
 ​ **​ViewController.swift**

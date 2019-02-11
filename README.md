@@ -37,17 +37,17 @@ Paste the following snippet into your existing plist.
 	<true/>
 </dict>
 <key>NSCameraUsageDescription</key>
-<string>We require access to your camera for broadcasting videos</string>
+<string>We require access in order to record and broadcast videos</string>
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>We require access to your location to find relevant events for you and to validate users content origin</string>
+<string>We require access to your location in order to match relevant events for your location</string>
 <key>NSLocationAlwaysUsageDescription</key>
 <string>We require access to your location  to find relevant events for you and to validate users content origin</string>
 <key>NSLocationWhenInUseUsageDescription</key>
-<string>We require access to your location to find relevant events for you and to validate users content origin</string>
+<string>We require access to your location  to find relevant events for you and to validate users content origin</string>
 <key>NSMicrophoneUsageDescription</key>
-<string>We requires access to your microphone for broadcasting videos</string>
+<string>We requires access to your microphone in order to record and broadcast videos</string>
 <key>NSPhotoLibraryUsageDescription</key>
-<string>We require access to your photo library to allow you to upload prerecorded videos to our servers</string>   
+<string>We require access to your photo library to allow you to upload prerecorded videos</string>   
 ```
 
 ## Step 4: If you plan using Snapper's Facebook or Twitter authentication, add the folowing to your info.plist file 

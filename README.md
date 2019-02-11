@@ -1,12 +1,20 @@
 # Getting Started with the Snappers SDK for iOS
 
 ## Instalation
-Snappers SDK currently supports only Swift projects. We plan to aslo suppor Objective-C projects soon
+We currently supports only Swift projects
 
-#CocoPods
+# CocoPods
 Add this to your Podsfile 
 
 ```ruby
+    source 'https://github.com/alongenosar/SnappersSDK-podspec.git'
+    source 'https://alongenosar@bitbucket.org/eitan_goldfrad/wowzatrunk.git'
+    source 'https://github.com/CocoaPods/Specs.git'
+    target 'Your target name' do
+    use_frameworks!
+    .
+    .
+    .
     pod 'SnappersSDK'
 ```
 

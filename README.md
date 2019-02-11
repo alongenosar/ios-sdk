@@ -89,7 +89,7 @@ override func viewDidLoad() {
    
 ```
 ## Step 6: Present events screen
-Once Snappers initialized succsefully, Present Snappers event screen as follow:
+Once Snappers initialized succsefully, you can present the Map screen as following:
 
 Swift:
 ```swift

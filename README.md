@@ -20,6 +20,9 @@ from the terminal in your project directory type
 ```bash
     pod install
 ```
+## Obtain SDK token and secret codes
+Snappers SDK lisence is bounded to your app's bundle id.
+To obtain an SDK token and secret codes, drop us message at support@snappers.tv including your app's bundle id.
 
 ## Step 2: Configure App Settings
 1. In Xcode, from the target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**

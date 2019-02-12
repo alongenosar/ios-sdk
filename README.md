@@ -20,16 +20,16 @@ from the terminal in your project directory type
 ```bash
     pod install
 ```
-## Obtain SDK token and secret codes
+## Step 2: Obtain SDK token and secret codes
 Snappers SDK lisence is bounded to your app's bundle id.
 To obtain an SDK token and secret codes, drop us message at support@snappers.tv including your app's bundle id.
 
-## Step 2: Configure App Settings
+## Step 3: Configure App Settings
 1. In Xcode, from the target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**
 2. In the target’s Capabilities tab, enable Push Notifications.
 3. In the target’s Capabilities tab, under Background modes, enable Location updates and Remote notifications.
 
-## Step 3: Add required keys to your info.plist file
+## Step 4: Add required keys to your info.plist file
 
 Snappers requires the following keys to be addded to the info.plist file
 
@@ -66,7 +66,7 @@ Paste the following snippet into your existing plist.
 <string>We require access to your photo library to allow you to upload prerecorded videos</string>   
 ```
 
-## Step 4: Facebook and Twitter authentication (Optional)
+## Step 5: Facebook and Twitter authentication (Optional)
 If you decide on using Snappers' Facebook or Twitter authentication, We'l require some additional keys in the info.plist file
 
 - URL types
@@ -101,7 +101,7 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
 ```
-## Step 5: Initialize Snappers SDK
+## Step 6: Initialize Snappers SDK
 Initialize SDK from your ViewController's ​ **viewDidLoad()​ ​** method​.
 Check for errors in the callback to ensure successful initialization
 
@@ -119,7 +119,7 @@ override func viewDidLoad() {
 }
    
 ```
-## Step 6: Present events-map view
+## Step 7: Present events-map view
 Once Snappers was initialized succsefully, you can present the events-map view as follows:
 
 Swift:
@@ -131,7 +131,7 @@ SnappersSDK.shared.present(.mapView, style:.popup) { error in
 
 ```
 
-## Step 7: Test event invitation notification:
+## Step 8: Test event invitation notification:
 For testing purposes only, you can mockup a broadcast invitation notification
 
 Swift:

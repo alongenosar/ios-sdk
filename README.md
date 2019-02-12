@@ -21,7 +21,7 @@ from the terminal in your project directory type
     pod install
 ```
 ## Step 2: Obtain SDK token and secret codes
-Snappers SDK lisence is binded to your app's bundle id.
+Snappers SDK lisence is bound to your app's bundle id.
 To obtain an SDK token and secret codes, drop us message at support@snappers.tv including your app's bundle id.
 
 ## Step 3: Configure App Settings

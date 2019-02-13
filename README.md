@@ -22,7 +22,7 @@ from the terminal in your project directory type
 ```
 ## Step 2: Obtain SDK token and secret codes.
 Snappers identify developers by their app's bundle id.  
- To create a developer account and obtain the SDK token and secret codes, drop us a message info@snappers.tv, and include your app's bundle id.
+ To create a developer account and obtain the SDK token and secret codes, drop us a message to info@snappers.tv, and include your app's bundle id.
 
 
 ## Step 3: Configure App Settings

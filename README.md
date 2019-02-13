@@ -21,8 +21,9 @@ from the terminal in your project directory type
     pod install
 ```
 ## Step 2: Obtain SDK token and secret codes.
-Snappers SDK account is binded to your app's bundle id.
-To obtain an SDK token and secret codes drop us a message at support@snappers.tv including your app's bundle id.
+Snappers identify developers by their app's bundle id.
+To create a developer account and obtain the neccsery token and secret codes drop us a message info@snappers.tv, including your app's bundle id.
+
 
 ## Step 3: Configure App Settings
 1. In Xcode, from the target’s Build Settings tab, set “Enable Bitcode” option to ​ **NO.**

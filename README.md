@@ -103,8 +103,7 @@ Paste the following snippet into your existing plist.
     </array>
 ```
 ## Step 6: Initialize Snappers SDK
-Initialize SDK from your ViewController's ​ **viewDidLoad​ ​** method​.  
-Use the token and code recived in stage 2 of this tutorial.   
+Use the token and code recived in stage 2 of this tutorial to initialize SDK from your ViewController's ​ **viewDidLoad​ ​** method​.  
 Check for errors in the callback to ensure successful initialization
 
 **​ViewController.swift**

@@ -43,7 +43,7 @@ Snappers requires the following keys to be addded to the info.plist file
 - App Transport Security Settings
 	* Allow Arbitrary Loads : YES
 	
-Either add them manually one by one, or use the following instructions:
+Either add them manually one by one, or use the following instructions to add them collectively:
 
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist.

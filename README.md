@@ -103,7 +103,8 @@ Paste the following snippet into your existing plist.
     </array>
 ```
 ## Step 6: Initialize Snappers SDK
-Initialize SDK from your ViewController's ​ **viewDidLoad()​ ​** method​.
+Initialize SDK from your ViewController's ​ **viewDidLoad​ ​** method​.
+Use the token and code recived from Snappers on stage 2 of this tutorila
 Check for errors in the callback to ensure successful initialization
 
 **​ViewController.swift**
@@ -121,7 +122,7 @@ override func viewDidLoad() {
    
 ```
 ## Step 7: Present events-map view
-Once Snappers was initialized succsefully, you can present the events-map view as follows:
+Once initialized succsefully, you can present the events-map view as follows:
 
 Swift:
 ```swift

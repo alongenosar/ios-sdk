@@ -21,8 +21,8 @@ from the terminal in your project directory type
     pod install
 ```
 ## Step 2: Obtain SDK token and secret codes.
-Snappers identify developers by their app's bundle id.
-To create a developer account and obtain the neccsery token and secret codes drop us a message info@snappers.tv, including your app's bundle id.
+Snappers identify developers by their app's bundle id.  
+Drop us a message info@snappers.tv, including your app's bundle id, to create a developer account and obtain the SDK token and secret codes,
 
 
 ## Step 3: Configure App Settings

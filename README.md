@@ -163,11 +163,12 @@ SnappersSDK.shared.requestBroadcastInvitation(eventId: "EVENT ID") { error in
 Objective-C:  
 ```Objective-c
 
- [SnappersSDK.shared requestBroadcastInvitationWithEventId:@"-LR0QAMHkKZIglwAKbD" delay:5.0 :^(NSError * error) {
-            NSLog(@"error %@",error);
-        }];
+ [SnappersSDK.shared requestBroadcastInvitationWithEventId:@"EVENT ID" delay:5.0 :^(NSError * error) {
+     NSLog(@"error %@",error);
+ }];
 
 ```
+
 # API
 
 ```swift

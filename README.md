@@ -178,7 +178,7 @@ func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscree
 
 ```swift
 
-// @discussion Dismisses on screen view 
+// @discussion Dismisses on-screen view 
 
 func dismissCurrentView()
 

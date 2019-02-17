@@ -80,7 +80,7 @@ If you decide on using Snappers' Facebook or Twitter authentication, We'l requir
 			- item : twitterkit-c8k1VkrIs7tHDuHkcc5kzLJAX
 
 
-Either add them manually or use the following instructions:
+Either add them manually one by one, or use the following instructions to add them collectively:
 
 In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.

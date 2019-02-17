@@ -121,7 +121,7 @@ override func viewDidLoad() {
 ```
 Objective-C:  
 **​ViewController.m**
-``` Objective-C
+``` objective-c
 @import SnappersSDK;
 .
 .

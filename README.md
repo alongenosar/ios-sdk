@@ -158,7 +158,7 @@ Swift:
 ```swift
 
 SnappersSDK.shared.requestBroadcastInvitation(eventId: "EVENT ID") { error in
-
+     print("error \(String(describing:error))")
 }
 
 ```

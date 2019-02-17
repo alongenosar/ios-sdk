@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://snappers.tv"
   s.author       = { "AlonGenosar" => "alon@bootleg.co.il" }
   s.platform     = :ios, "9.0"
-  #s.source       = { :git => 'https://github.com/Snappers-tv/ios-sdk.git', :tag => '0.1.5' }
-  s.source       = { :git => 'https://github.com/Snappers-tv/ios-sdk.git'}
+  s.source       = { :git => 'https://github.com/Snappers-tv/ios-sdk.git', :tag => '0.1.6' }
   s.vendored_frameworks = 'SnappersSDK.framework'
   ####s.source_files = 'SnappersSDK/*.swift'
   ####s.static_framework = true

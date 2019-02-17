@@ -1,4 +1,4 @@
-![Image](/resources/logo.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+![Image](/resources/logo.png)
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation

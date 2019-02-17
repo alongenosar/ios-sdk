@@ -115,7 +115,7 @@ import SnappersSDK
 .
 override func viewDidLoad() {
     SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SECRET") { error in
-
+	print("error \(String(describing:error))")
     }
 }
    
@@ -124,7 +124,7 @@ Objective-C:
 **​ViewController.m**
 ``` Objective-c
 [[SnappersSDK shared] identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
-	NSLog(@"error %@",error);
+    NSLog(@"error %@",error);
  }];
 
 ```
@@ -135,20 +135,18 @@ Swift:
 ```swift
 
 SnappersSDK.shared.present(.map, style:.popup) { error in
-
+    print("error \(String(describing:error))")
 }
 
 ```
-
+Objective-C:  
 ``` Objective-c
 
 [SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStylePopup :^(NSError * error) {
-	NSLog(@"error %@",error);
+    NSLog(@"error %@",error);
 }]
 
 ```
-
-
 
 ## Step 8: Test event invitation notification:
 For testing purposes only, you can mockup a broadcast invitation notification

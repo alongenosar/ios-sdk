@@ -1,4 +1,4 @@
-
+![Image](/resources/beta.png)
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation

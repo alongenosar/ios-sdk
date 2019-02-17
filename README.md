@@ -122,7 +122,7 @@ override func viewDidLoad() {
 ```
 Objective-C:  
 **​ViewController.m**
-``` Objective-c
+``` Objective-C
 [SnappersSDK.shared identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
     NSLog(@"error %@",error);
  }];
@@ -140,7 +140,7 @@ SnappersSDK.shared.present(.map, style:.popup) { error in
 
 ```
 Objective-C:  
-``` Objective-c
+``` Objective-C
 
 [SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStylePopup :^(NSError * error) {
     NSLog(@"error %@",error);
@@ -160,6 +160,14 @@ SnappersSDK.shared.requestBroadcastInvitation(eventId: "EVENT ID") { error in
 
 ```
 
+Objective-C:  
+```Objective-c
+
+ [SnappersSDK.shared requestBroadcastInvitationWithEventId:@"-LR0QAMHkKZIglwAKbD" delay:5.0 :^(NSError * error) {
+            NSLog(@"error %@",error);
+        }];
+
+```
 # API
 
 ```swift

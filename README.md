@@ -137,7 +137,7 @@ Once initialized succsefully, you can present the events-map view as follows:
 Swift:  
 ```swift
 
-SnappersSDK.shared.present(.map, style:.popup) { error in
+SnappersSDK.shared.present(.map, style:.fullscreen) { error in
     print("error \(String(describing:error))")
 }
 
@@ -145,7 +145,7 @@ SnappersSDK.shared.present(.map, style:.popup) { error in
 Objective-C:  
 ``` Objective-C
 
-[SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStylePopup :^(NSError * error) {
+[SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStyleFullscreen :^(NSError * error) {
     NSLog(@"error %@",error);
 }]
 

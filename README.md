@@ -177,6 +177,14 @@ func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscree
 ```
 
 ```swift
+
+// @discussion Dismisses on screen view 
+
+func dismissCurrentView()
+
+```
+
+```swift
 // @discussion Login via social platform
 // @param view  available options: .facebook and .twitter
 // @param callback(error) finished callback

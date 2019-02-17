@@ -1,4 +1,4 @@
-<img src="/resources/beta.png" alt="alt text" width="whatever" height="whatever">
+<img src="/resources/beta.png" alt="alt text" width="400" height="300">
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation

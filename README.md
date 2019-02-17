@@ -1,4 +1,4 @@
-![](/resources/beta.png | width=200)
+![](/resources/beta.png =300x300)
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation

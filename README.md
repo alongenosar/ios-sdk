@@ -189,7 +189,7 @@ func identify( token:String, secret:String, _ callback:SnappersCallback? = nil)
 
 // @discussion Presents Snappers view
 // @param view  available options: .mapView
-// @param style available options .fullscreen and .popup
+// @param style available options currenttly .fullscreen
 // @param callback(error) finished callback
 
 func present(_ screen:SnappersView, style:SnappersPresentationStyle = .fullscreen, _ callback:SnappersCallback?  = nil)

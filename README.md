@@ -131,14 +131,24 @@ Objective-C:
 ## Step 7: Present events-map view
 Once initialized succsefully, you can present the events-map view as follows:
 
-Swift:
+Swift:  
 ```swift
 
-SnappersSDK.shared.present(.mapView, style:.popup) { error in
+SnappersSDK.shared.present(.map, style:.popup) { error in
 
 }
 
 ```
+
+``` Objective-c
+
+[SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStylePopup :^(NSError * error) {
+	NSLog(@"error %@",error);
+}]
+
+```
+
+
 
 ## Step 8: Test event invitation notification:
 For testing purposes only, you can mockup a broadcast invitation notification

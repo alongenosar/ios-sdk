@@ -1,4 +1,4 @@
- ![alt text](/resources/logo.png "Logo Title Text 1")
+![Image](/resources/logo.png){ width="800" height="600" style="display: block; margin: 0 auto" }
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation

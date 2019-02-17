@@ -120,6 +120,13 @@ override func viewDidLoad() {
 }
    
 ```
+**​ViewController.m**
+``` Objective-c
+[[SnappersSDK shared] identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
+       SnappersSDK.shared prese
+    }];
+
+```
 ## Step 7: Present events-map view
 Once initialized succsefully, you can present the events-map view as follows:
 

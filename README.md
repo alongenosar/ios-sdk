@@ -106,7 +106,7 @@ Paste the following snippet into your existing plist.
 From your ViewController's ​**viewDidLoad​​** method​, use the token and code obtained in stage 2, to initialize the SDK.  
 Check for errors in the callback to ensure successful initialization
 
-Swift:
+Swift:  
 **​ViewController.swift**
 ```swift
 import SnappersSDK
@@ -120,7 +120,7 @@ override func viewDidLoad() {
 }
    
 ```
-Objective-C:
+Objective-C:  
 **​ViewController.m**
 ``` Objective-c
 [[SnappersSDK shared] identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {

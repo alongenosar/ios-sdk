@@ -187,7 +187,7 @@ func identify( token:String, secret:String, _ callback:SnappersCallback? = nil)
 ```swift
 
 // @discussion Presents Snappers view
-// @param view  available options: .mapView
+// @param currently the only view available is .map
 // @param callback(error) finished callback
 
 func present(_ screen:SnappersView, _ callback:SnappersCallback?  = nil)

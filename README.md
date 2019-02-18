@@ -126,10 +126,11 @@ Objective-C:
 .
 .
 .
-[SnappersSDK.shared identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
-    NSLog(@"error %@",error);
- }];
-
+- (void)viewDidLoad {
+    [SnappersSDK.shared identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
+        NSLog(@"error %@",error);
+     }];
+ }
 ```
 ## Step 7: Present events-map view
 Once initialized succsefully, you can present the events-map view as follows:
@@ -144,11 +145,9 @@ SnappersSDK.shared.present(.map, style:.fullscreen) { error in
 ```
 Objective-C:  
 ``` Objective-C
-- (void)viewDidLoad {
-    [SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStyleFullscreen :^(NSError * error) {
-        NSLog(@"error %@",error);
-    }]
-}
+[SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStyleFullscreen :^(NSError * error) {
+    NSLog(@"error %@",error);
+}]
 ```
 
 ## Step 8: Test event invitation notification:

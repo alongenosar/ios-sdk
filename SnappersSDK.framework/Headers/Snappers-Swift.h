@@ -509,11 +509,32 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Repository *
 - (NSString * _Nonnull)versionSigniture SWIFT_WARN_UNUSED_RESULT;
 @end
 
+typedef SWIFT_ENUM(NSInteger, SnappersLoginMethod, closed) {
+  SnappersLoginMethodFacebook = 0,
+  SnappersLoginMethodTwitter = 1,
+};
+
+typedef SWIFT_ENUM(NSInteger, SnappersPresentationStyle, closed) {
+  SnappersPresentationStyleFullscreen = 0,
+  SnappersPresentationStylePopup = 1,
+};
+
 
 SWIFT_CLASS("_TtC11SnappersSDK11SnappersSDK")
 @interface SnappersSDK : NSObject <FIRMessagingDelegate, UIApplicationDelegate, UNUserNotificationCenterDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SnappersSDK * _Nonnull shared;)
++ (SnappersSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(SnappersSDK * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull stam;)
++ (NSString * _Nonnull)stam SWIFT_WARN_UNUSED_RESULT;
++ (void)setStam:(NSString * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (void)identifyWithToken:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret :(void (^ _Nullable)(NSError * _Nullable))callback;
+- (void)loginWithMethod:(enum SnappersLoginMethod)method :(void (^ _Nullable)(NSError * _Nullable))callback;
+- (void)loginWithRegisteredUserWithName:(NSString * _Nonnull)name id:(NSString * _Nullable)id profilePicture:(NSString * _Nullable)profilePicture :(void (^ _Nullable)(NSError * _Nullable))callback;
+- (void)logout:(void (^ _Nullable)(NSError * _Nullable))callback;
+- (void)requestBroadcastInvitationWithEventId:(NSString * _Nonnull)eventId delay:(NSTimeInterval)delay :(void (^ _Nullable)(NSError * _Nullable))callback;
 @end
 
 @class FIRMessaging;
@@ -524,7 +545,12 @@ SWIFT_CLASS("_TtC11SnappersSDK11SnappersSDK")
 - (void)messaging:(FIRMessaging * _Nonnull)messaging didReceiveMessage:(FIRMessagingRemoteMessage * _Nonnull)remoteMessage;
 @end
 
+enum SnappersView : NSInteger;
 
+@interface SnappersSDK (SWIFT_EXTENSION(SnappersSDK))
+- (void)dismissCurrentView;
+- (void)present:(enum SnappersView)view style:(enum SnappersPresentationStyle)style :(void (^ _Nullable)(NSError * _Nullable))callback;
+@end
 
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
@@ -546,6 +572,10 @@ SWIFT_CLASS("_TtC11SnappersSDK11SnappersSDK")
 @interface SnappersSDK (SWIFT_EXTENSION(SnappersSDK))
 - (void)application:(UIApplication * _Nonnull)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nonnull)deviceToken;
 @end
+
+typedef SWIFT_ENUM(NSInteger, SnappersView, closed) {
+  SnappersViewMap = 0,
+};
 
 
 SWIFT_CLASS("_TtC11SnappersSDK15StreamingServer")

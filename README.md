@@ -144,11 +144,11 @@ SnappersSDK.shared.present(.map, style:.fullscreen) { error in
 ```
 Objective-C:  
 ``` Objective-C
-
-[SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStyleFullscreen :^(NSError * error) {
-    NSLog(@"error %@",error);
-}]
-
+- (void)viewDidLoad {
+    [SnappersSDK.shared present:SnappersViewMap style:SnappersPresentationStyleFullscreen :^(NSError * error) {
+        NSLog(@"error %@",error);
+    }]
+}
 ```
 
 ## Step 8: Test event invitation notification:

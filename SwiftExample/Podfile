@@ -1,0 +1,8 @@
+source 'https://github.com/Snappers-tv/ios-sdk.git'
+source 'https://github.com/cocoaPods/Specs.git'
+target 'SwiftExample' do
+use_frameworks!
+
+pod 'SnappersSDK'
+
+end

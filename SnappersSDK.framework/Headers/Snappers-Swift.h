@@ -172,6 +172,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import GoogleMapsBase;
 @import ObjectiveC;
+@import QuartzCore;
 @import UIKit;
 @import UserNotifications;
 #endif
@@ -521,7 +522,7 @@ typedef SWIFT_ENUM(NSInteger, SnappersPresentationStyle, closed) {
 
 
 SWIFT_CLASS("_TtC11SnappersSDK11SnappersSDK")
-@interface SnappersSDK : NSObject <FIRMessagingDelegate, UIApplicationDelegate, UNUserNotificationCenterDelegate>
+@interface SnappersSDK : NSObject <FIRMessagingDelegate, CAAnimationDelegate, UIApplicationDelegate, UNUserNotificationCenterDelegate>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SnappersSDK * _Nonnull shared;)
 + (SnappersSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(SnappersSDK * _Nonnull)value;
@@ -545,13 +546,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull stam
 - (void)messaging:(FIRMessaging * _Nonnull)messaging didReceiveMessage:(FIRMessagingRemoteMessage * _Nonnull)remoteMessage;
 @end
 
-enum SnappersView : NSInteger;
-
-@interface SnappersSDK (SWIFT_EXTENSION(SnappersSDK))
-- (void)dismissCurrentView;
-- (void)present:(enum SnappersView)view style:(enum SnappersPresentationStyle)style :(void (^ _Nullable)(NSError * _Nullable))callback;
-@end
-
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
 @class UNNotification;
@@ -560,6 +554,13 @@ enum SnappersView : NSInteger;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center openSettingsForNotification:(UNNotification * _Nullable)notification;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
+@end
+
+enum SnappersView : NSInteger;
+
+@interface SnappersSDK (SWIFT_EXTENSION(SnappersSDK))
+- (void)dismissCurrentView;
+- (void)present:(enum SnappersView)view :(void (^ _Nullable)(NSError * _Nullable))callback;
 @end
 
 @class UIApplication;
@@ -575,6 +576,7 @@ enum SnappersView : NSInteger;
 
 typedef SWIFT_ENUM(NSInteger, SnappersView, closed) {
   SnappersViewMap = 0,
+  SnappersViewEventList = 1,
 };
 
 

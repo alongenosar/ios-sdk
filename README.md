@@ -1,6 +1,18 @@
 # Getting Started with the Snappers SDK for iOS
 
 ## Step 1: Instalation
+### Cordova
+Cordova develelopers should install SnappersSDK plugin and install/update Cocopods to the latest version before proceeding with the instructions
+
+```bash
+$ cordova plugin add SnappersSDK
+```
+
+
+
+```bash
+$ sudo gem install cocoapods
+```
 
 ### CocoPods
 Add this to your Podfile 

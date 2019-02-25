@@ -2,7 +2,7 @@
 
 ## Step 1: Instalation
 ### Cordova
-Cordova develelopers should install SnappersSDK plugin and install/update Cocopods to the latest version before proceeding with the instructions
+Cordova develelopers should install SnappersSDK plugin and iupdate Cocopods to the latest version before proceeding to the next step .
 
 ```bash
 $ cordova plugin add SnappersSDK

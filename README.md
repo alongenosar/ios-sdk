@@ -10,7 +10,7 @@ Cordova develelopers should do the following ___ before proceeding to the next s
 $ cordova plugin add SnappersSDK
 ```
 
-2.Add a swift class to the xcode project. This will create the necessary a swift section in the target's Build settings. 
+2.Add a swift class to the xcode project. This will create the necessary swift section in the target's Build settings. 
 
 3.We also recommend updating Cocopods to the latest version. 
 

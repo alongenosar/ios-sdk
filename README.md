@@ -12,7 +12,7 @@ $ cordova plugin add SnappersSDK
 
 2.Add a swift class to the xcode project. This will create the necessary a swift section in the target's Build settings. 
 
-3.Recommend to update Cocopods to the latest version. 
+3.We also recommend updating Cocopods to the latest version. 
 
 ```bash
 $ sudo gem install cocoapods

@@ -45,8 +45,12 @@ Snappers requires the following keys to be addded to the info.plist file
 Either add them manually one by one, or use the following instructions to add them collectively:
 
 In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
-Paste the following snippet into your existing plist.
+Paste the following snippet into your existing plist. just before the closing tags at the end of the file
+
 ```xml
+.
+.
+.
 <key>NSAppTransportSecurity</key>
 <dict>
 	<key>NSAllowsArbitraryLoads</key>
@@ -64,6 +68,11 @@ Paste the following snippet into your existing plist.
 <string>We requires access to your microphone in order to record and broadcast videos</string>
 <key>NSPhotoLibraryUsageDescription</key>
 <string>We require access to your photo library to allow you to upload prerecorded videos</string>   
+.
+.
+.
+</dict>
+</plist>
 ```
 
 ## Step 5: Facebook and Twitter authentication (Optional)

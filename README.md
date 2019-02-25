@@ -2,15 +2,15 @@
 
 ## Step 1: Instalation
 ### Cordova
-Cordova develelopers should do the following ___ before proceeding to the next step
-1.Install SnappersSDK plugin
+Cordova develelopers should do the following ___ before proceeding to the next step  
+1.Install SnappersSDK plugin. 
 
 ```bash
 $ cordova plugin add SnappersSDK
 ```
-2.Add a swift class function to the xcode project. This will add a swift section to the target's Build settings
+2.Add a swift class function to the xcode project. This will add a swift section to the target's Build settings. 
 
-3. Recommend to update Cocopods to the latest version
+3. Recommend to update Cocopods to the latest version. 
 
 ```bash
 $ sudo gem install cocoapods

@@ -2,7 +2,7 @@
 
 ## Step 1: Instalation
 ### Cordova
-Cordova develelopers should do the following ___ before proceeding to the next step  
+Cordova develelopers should do this preceeding step and then proceed with the reset of the instructions, **Skipping to Cocopods step below** 
 
 1.Install SnappersSDK plugin. 
 

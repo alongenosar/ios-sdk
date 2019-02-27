@@ -7,7 +7,12 @@ Cordova develelopers should follow this preceeding step before proceeding with t
 1. Create a new swift class in your xCode project.  
 2. Choose "Create Bridging header" from the dialog presented by Xcode. This will create the necessary swift section in the target's Build settings.  
 3. In xCode find the swift version entry under  target's build settings tab, and set it to 4.0  
-4. We also recommend updating Cocopods to the latest version.   
+4. in xCode, add a new script to the target's Build Phases tab, and paste the following snippet. make sure the script runs first in order by dragging it to the top of the Build Phases list.
+```bash
+cordova prepare ios
+```
+
+5. We also recommend updating Cocopods to the latest version.   
 
 ```bash
 $ sudo gem install cocoapods

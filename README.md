@@ -21,7 +21,7 @@ This will create the necessary swift section in the target's Build settings.
 $ sudo gem install cocoapods
 ```
 
-### CocoPods (**Skip this step if your'e using Cordova**)
+### CocoPods (🛑**Skip this step if your'e using Cordova**)
 Add this to your Podfile 
 
 ```ruby

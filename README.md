@@ -2,7 +2,7 @@
 
 ## Step 1: Instalation
 ### Cordova
-Cordova develelopers should do this preceeding step and then proceed with the reset of the instructions, **Skipping to Cocopods step below** 
+Cordova develelopers should follow this preceeding step before proceed with the reset of the instructions.  
 
 1.Install SnappersSDK plugin. 
 
@@ -21,7 +21,8 @@ This will create the necessary swift section in the target's Build settings.
 $ sudo gem install cocoapods
 ```
 
-### CocoPods
+### CocoPods 
+**Skip this step if your'e using Cordova** 
 Add this to your Podfile 
 
 ```ruby

@@ -10,8 +10,8 @@ Cordova develelopers should do the following ___ before proceeding to the next s
 $ cordova plugin add SnappersSDK
 ```
 
-1.Create a new swift class in the xCode project.
-2.Choose "Creater Bridging header" from the dialog presented by Xcode.
+1. Create a new swift class in your xCode project.  
+2. Choose "Creater Bridging header" from the dialog presented by Xcode.  
 This will create the necessary swift section in the target's Build settings.
 3.You can delete the swift class you've just created if you wish.
 

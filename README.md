@@ -4,7 +4,7 @@
 ### Cordova
 Cordova develelopers should follow this preceeding step before proceeding with the reset of the instructions.    
 
-0. open xcode woarkspace inside {PROJECT-NAME}/plaform/ios/{PROJECT-NAME}.xcworkspace. 
+0. Open xcode project workspace found in {PROJECT-NAME}/plaform/ios/{PROJECT-NAME}.xcworkspace. 
 1. Create a new swift class in your xCode project.  
 2. Choose "Create Bridging header" from the dialog presented by Xcode. This will create the necessary swift section in the target's Build settings.  
 3. In xCode find the swift version entry under  target's build settings tab, and set it to 4.0  

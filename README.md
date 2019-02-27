@@ -4,12 +4,6 @@
 ### Cordova
 Cordova develelopers should follow this preceeding step before proceeding with the reset of the instructions.  
 
-1.Install SnappersSDK plugin. 
-
-```bash
-$ cordova plugin add SnappersSDK
-```
-
 1. Create a new swift class in your xCode project.  
 2. Choose "Creater Bridging header" from the dialog presented by Xcode. This will create the necessary swift section in the target's Build settings.  
 4. In xCode find the swift version entry in the target's build settings, and set it to 4.0. 
@@ -17,6 +11,11 @@ $ cordova plugin add SnappersSDK
 
 ```bash
 $ sudo gem install cocoapods
+```
+6.Install SnappersSDK plugin. 
+
+```bash
+$ cordova plugin add SnappersSDK
 ```
 
 ### CocoPods (🛑**Skip this step if your'e using Cordova**)

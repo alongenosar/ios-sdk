@@ -2,7 +2,7 @@
 
 ## Step 1: Instalation
 ### Cordova
-Cordova develelopers should follow this preceeding step before proceeding with the reset of the instructions.    
+Cordova develelopers should follow this step before proceeding.    
 
 0. Open xcode project workspace found in {PROJECT-NAME}/plaform/ios/{PROJECT-NAME}.xcworkspace. 
 1. Create a new empty swift class in your xCode project.  
@@ -42,7 +42,7 @@ from the terminal in your project directory type
     pod install
 ```
 ## Step 2: Obtain SDK token and secret codes.
-Snappers identify developers by their app's bundle id.  
+Snappers identifies developers by their app's bundle id.  
  To create a developer account and obtain the token and secret codes required by the SDK, drop us a message to info@snappers.tv, and include your app's bundle id.
 
 
@@ -99,7 +99,7 @@ Paste the following snippet into your existing plist. just before the closing ta
 ```
 
 ## Step 5: Facebook and Twitter authentication (Optional)
-If you decide on using Snappers' Facebook or Twitter authentication, We'l require some additional keys in the info.plist file
+If you decide on using Snappers' Facebook or Twitter authentication, We'll require some additional keys in the info.plist file
 
 - URL types
 	* item
@@ -207,7 +207,7 @@ Objective-C:
 
 ```swift
 
-// @discussion Initialize SnappersSDK. sould be called only once before any other SDK calls
+// @discussion Initialize SnappersSDK. sould be called only once before any other SDK call
 // @param token account token as received from Snappers support team
 // @param secret account secret as received from Snappers support team
 // @param callback(error) finished callback

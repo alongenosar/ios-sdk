@@ -52,7 +52,7 @@ Snappers identify developers by their app's bundle id.
 
 ## Step 4: Add required keys to your info.plist file
 
-Snappers requires the following keys to be addded to the info.plist file
+Snappers requires the following keys to be addded to the info.plist file.  
 **Cordova developers might see this file as {PROJECT-NAME}-info.plist**
 
 - Privacy - Camera Usage Description : Add description

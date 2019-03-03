@@ -4,21 +4,21 @@
 ### Cordova
 Cordova develelopers should follow this step before proceeding.    
 
-0. Open xcode project workspace found in {PROJECT-NAME}/plaform/ios/{PROJECT-NAME}.xcworkspace. 
-1. Create a new empty swift class in your xCode project.  
-2. Choose "Create Bridging header" from the dialog presented by Xcode. This will create the necessary swift section in the target's Build settings.  
-3. In xCode find the swift version entry under  target's build settings tab, and set it to 4.0  
-4. in xCode, add a new script to the target's Build Phases tab, and paste the following snippet. make sure the script runs first in order by dragging it to the top of the Build Phases list.
+1. Open Xcode's workspace found in {PROJECT-NAME}/plaform/ios/{PROJECT-NAME}.xcworkspace. 
+2. Create a new empty swift class in your xCode project.  
+3. Choose "Create Bridging header" from the dialog presented by Xcode. This will create the necessary swift section in the target's Build settings.  
+4. In xCode find the swift version entry under  target's build settings tab, and set it to 4.0  
+5. in xCode, add a new script to the target's Build Phases tab, and paste the following snippet. make sure the script runs first in order by dragging it to the top of the Build Phases list.
 ```bash
 cordova prepare ios
 ```
 
-5. We also recommend updating Cocopods to the latest version.   
+6. We also recommend updating Cocopods to the latest version.   
 
 ```bash
 $ sudo gem install cocoapods
 ```
-5.Install SnappersSDK plugin. 
+7.Install SnappersSDK plugin. 
 
 ```bash
 $ cordova plugin add SnappersSDK

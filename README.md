@@ -48,7 +48,7 @@ Snappers identifies developers by their app's bundle id.
 
 ## Step 3: Configure App Settings
 1. In Xcode, from the target’s Build Settings tab, set **Enable Bitcode** option to ​ **NO.**
-2. In the target’s Capabilities tab, enable **Push Notifications** and **Keychain Sharing**.  
+2. In the target’s Capabilities tab, enable **Push Notifications**, **Keychain Sharing** and **Background Modes**.  
 3. In the target’s Capabilities tab, under **Background Modes**, enable **Location updates** and **Remote notifications**.
 
 ## Step 4: Add required keys to your info.plist file

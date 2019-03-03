@@ -32,6 +32,7 @@ Add this to your Podfile
     source 'https://github.com/cocoaPods/Specs.git'
     target 'Your target name' do
     use_frameworks!
+    inhibit_all_warnings!
  
     pod 'SnappersSDK'
     

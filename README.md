@@ -2,7 +2,7 @@
 
 ## Step 1: Instalation
 
-### CocoPods (🛑**Skip this step if your'e using Cordova**)
+### CocoPods
 Add this to your Podfile 
 
 ```ruby

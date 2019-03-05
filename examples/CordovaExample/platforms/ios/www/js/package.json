@@ -1,0 +1,14 @@
+{
+  "name": "TestPlugin",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "TestPlugin",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC"
+}

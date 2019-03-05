@@ -1,0 +1,11 @@
+framework module SnappersSDK {
+  umbrella header "SnappersSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SnappersSDK.Swift {
+    header "Snappers-Swift.h"
+    requires objc
+}

@@ -1,0 +1,44 @@
+{
+  "_from": "snappers-sdk",
+  "_id": "snappers-sdk@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-i6CN6J5Xlt1QKu5b3WAScqRCOxxYEgNr+JEcif1dsWVxsCaR1jeOk8+waBeoSEX0aP5k0g1v0+Vq8ro4y3xGdw==",
+  "_location": "/snappers-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "snappers-sdk",
+    "name": "snappers-sdk",
+    "escapedName": "snappers-sdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/snappers-sdk/-/snappers-sdk-0.1.0.tgz",
+  "_shasum": "38681133582f19f90753d90a53fb1ce576a73e75",
+  "_spec": "snappers-sdk",
+  "_where": "/Users/alongenosar/Documents/projects/snappers/CordovaPlugin/CordovaExample",
+  "author": {
+    "name": "Dubon Ya'ar"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "SnappersSDK",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Snappers SDK cordova plugin",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "ISC",
+  "name": "snappers-sdk",
+  "version": "0.1.0"
+}

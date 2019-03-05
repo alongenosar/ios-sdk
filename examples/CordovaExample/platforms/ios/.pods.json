@@ -1,0 +1,15 @@
+{
+	"pods": {
+		"SnappersSDK": {
+			"type": "pod",
+			"name": "SnappersSDK",
+			"version": "0.2.6"
+		}
+	},
+	"sources": {
+		"https://github.com/Snappers-tv/ios-sdk.git": true,
+		"https://github.com/cocoaPods/Specs.git": true
+	},
+	"iosMinVersion": "10.3",
+	"useFrameworks": true
+}

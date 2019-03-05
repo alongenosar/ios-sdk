@@ -36,7 +36,7 @@ class ViewController: UIViewController,UITextFieldDelegate,CLLocationManagerDele
         HUDItemActivity().show()
         // #error("Please enter API token and secret below, then delete this line.")
         /*   "GOSK-D044-0100-E462-C490-FF81"*/
-        SnappersSDK.shared.identify(token: "abcde"/*"goCNN"*/, secret: "GOSK-F243-0100-05CF-48E0-86DD") { error in
+        SnappersSDK.shared.identify(token: "SNAPPERS TOKEN", secret: "SNAPPERS SECRET") { error in
             
             
             if let error = error {

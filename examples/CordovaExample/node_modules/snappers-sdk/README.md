@@ -1,28 +1,22 @@
-# Getting Started with the Snappers SDK for iOS
+# Getting Started with the SnappersSDK plugin for Cordova (iOS)
 
 ## Step 1: Instalation
-1. Add iOS platform to your project. From command line, in your project directory, run the following:
-```bash
-cordova platform add ios
-```
-2. Open Xcode's workspace found in {PROJECT-NAME}/plaform/ios/{PROJECT-NAME}.xcworkspace. 
-3. Create a Swift Bridiging header: The simpliest way to do that is to create a new empty **Swift** class in your xCode project. xCode should present a dialog suggesting to add a bridging header. You should accept.
-5. Clear Cordova's cache before xCode build: In xCode, add a new script to the target's Build Phases tab, and paste the following line. **Make sure the script runs first in order by dragging it to the top of the Build Phases list**.
-```bash
-cordova prepare ios
-```
+1. Add iOS platform to your project. **note that it is crusual that you install ios platform version 5.0.0 or higher**.  
+    From command line, in your project directory, run the following:
+    ```bash
+    cordova platform add ios@5.0.0
+    ```
+    If you previously installed iOS platform, make sure that you update it to version 5.0.0 or higher as following:
+    ```bash
+    cordova platform update ios@5.0.0
+    ```
+    
 
-5. Install Cocopods. From command line:
+2. Install SnappersSDK plugin. From the command line, in your project root directory, run the following:
 
-```bash
-$ sudo gem install cocoapods
-```
-
-6. Install SnappersSDK plugin. From the command line, in your project directory, run the following:
-
-```bash
-$ cordova plugin add snappers-sdk
-```
+    ```bash
+    $ cordova plugin add snappers-sdk
+    ```
 
 ## Step 2: Obtain SDK token and secret codes.
 Snappers identifies developers by their app's bundle id.  
@@ -117,6 +111,14 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
 ```
+
+## Build Project
+First build of the project after snappers-sdk was added should be from command line, although it wouldn't be able to complete the build succsefully.
+```bash
+$ cordova run ios --buildFlag='-UseModernBuildSystem=0'
+```
+**All builds from now on should run directly from xCode**
+
 ## Step 6: Initialize Snappers SDK
 In www/js/index.js, add the following code to your **onDeviceReady** function. Use the token and code recieved from Snappers to initialize the SDK. **Check for errors in the callback to ensure successful initialization**
 ```javascript

@@ -1,8 +1,8 @@
 {
   "_from": "snappers-sdk",
-  "_id": "snappers-sdk@0.1.0",
+  "_id": "snappers-sdk@0.1.5",
   "_inBundle": false,
-  "_integrity": "sha512-i6CN6J5Xlt1QKu5b3WAScqRCOxxYEgNr+JEcif1dsWVxsCaR1jeOk8+waBeoSEX0aP5k0g1v0+Vq8ro4y3xGdw==",
+  "_integrity": "sha512-XB5zW99keTfrtkwzmSBdxIHLmu9LeDrmu8VZlFflztOREu4KYQ5B3TczpHF8ZjULCytSzn3djOT4JmlS7NTvGg==",
   "_location": "/snappers-sdk",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +19,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/snappers-sdk/-/snappers-sdk-0.1.0.tgz",
-  "_shasum": "38681133582f19f90753d90a53fb1ce576a73e75",
+  "_resolved": "https://registry.npmjs.org/snappers-sdk/-/snappers-sdk-0.1.5.tgz",
+  "_shasum": "ae741c8b85f49ac38e5d412efdb3874d88d5e4b1",
   "_spec": "snappers-sdk",
   "_where": "/Users/alongenosar/Documents/projects/snappers/CordovaPlugin/CordovaExample",
   "author": {
@@ -40,5 +40,5 @@
   ],
   "license": "ISC",
   "name": "snappers-sdk",
-  "version": "0.1.0"
+  "version": "0.1.5"
 }

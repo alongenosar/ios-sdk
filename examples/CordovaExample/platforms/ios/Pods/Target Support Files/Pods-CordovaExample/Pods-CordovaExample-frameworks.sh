@@ -167,10 +167,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework"
+  install_framework "${PODS_ROOT}/SnappersEncoder/WowzaGoCoderSDK.framework"
   install_framework "${PODS_ROOT}/SnappersSDK/SnappersSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UIImageView-Letters/UIImageView_Letters.framework"
-  install_framework "${PODS_ROOT}/WowzaGoCoderSDK/WowzaGoCoderSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
@@ -189,10 +189,10 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework"
+  install_framework "${PODS_ROOT}/SnappersEncoder/WowzaGoCoderSDK.framework"
   install_framework "${PODS_ROOT}/SnappersSDK/SnappersSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UIImageView-Letters/UIImageView_Letters.framework"
-  install_framework "${PODS_ROOT}/WowzaGoCoderSDK/WowzaGoCoderSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi

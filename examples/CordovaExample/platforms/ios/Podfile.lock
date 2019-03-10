@@ -151,7 +151,8 @@ PODS:
   - Sentry/Core (3.12.0)
   - Sentry/KSCrash (3.12.0):
     - KSCrash/Core (~> 1.15.12)
-  - SnappersSDK (0.2.6):
+  - SnappersEncoder (0.0.1)
+  - SnappersSDK (0.2.7):
     - AWSS3
     - EVReflection
     - Firebase/Auth
@@ -168,13 +169,13 @@ PODS:
     - Kingfisher
     - SDWebImage
     - Sentry
-    - SnappersSDK/FBSDKLoginKit (= 0.2.6)
-    - SnappersSDK/Sentry (= 0.2.6)
-    - SnappersSDK/TwitterKit (= 0.2.6)
+    - SnappersEncoder
+    - SnappersSDK/FBSDKLoginKit (= 0.2.7)
+    - SnappersSDK/Sentry (= 0.2.7)
+    - SnappersSDK/TwitterKit (= 0.2.7)
     - SwipeCellKit
     - UIImageView-Letters
-    - WowzaGoCoderSDK
-  - SnappersSDK/FBSDKLoginKit (0.2.6):
+  - SnappersSDK/FBSDKLoginKit (0.2.7):
     - AWSS3
     - EVReflection
     - FBSDKLoginKit (~> 4.38.0)
@@ -192,10 +193,10 @@ PODS:
     - Kingfisher
     - SDWebImage
     - Sentry
+    - SnappersEncoder
     - SwipeCellKit
     - UIImageView-Letters
-    - WowzaGoCoderSDK
-  - SnappersSDK/Sentry (0.2.6):
+  - SnappersSDK/Sentry (0.2.7):
     - AWSS3
     - EVReflection
     - Firebase/Auth
@@ -212,10 +213,10 @@ PODS:
     - Kingfisher
     - SDWebImage
     - Sentry (= 3.12.0)
+    - SnappersEncoder
     - SwipeCellKit
     - UIImageView-Letters
-    - WowzaGoCoderSDK
-  - SnappersSDK/TwitterKit (0.2.6):
+  - SnappersSDK/TwitterKit (0.2.7):
     - AWSS3
     - EVReflection
     - Firebase/Auth
@@ -232,20 +233,19 @@ PODS:
     - Kingfisher
     - SDWebImage
     - Sentry
+    - SnappersEncoder
     - SwipeCellKit
     - TwitterKit (= 1.15.3)
     - UIImageView-Letters
-    - WowzaGoCoderSDK
   - SwipeCellKit (2.5.1)
   - TwitterCore (1.15.3):
     - Fabric
   - TwitterKit (1.15.3):
     - TwitterCore (= 1.15.3)
   - UIImageView-Letters (1.1.4)
-  - WowzaGoCoderSDK (0.0.1)
 
 DEPENDENCIES:
-  - SnappersSDK (= 0.2.6)
+  - SnappersSDK (= 0.2.7)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -287,8 +287,8 @@ SPEC REPOS:
     - TwitterKit
     - UIImageView-Letters
   https://github.com/Snappers-tv/ios-sdk:
+    - SnappersEncoder
     - SnappersSDK
-    - WowzaGoCoderSDK
 
 SPEC CHECKSUMS:
   AWSCore: de39c337b7cb32c7a2c6402f45ecf4e50498000e
@@ -324,13 +324,13 @@ SPEC CHECKSUMS:
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
   Sentry: 74233cedacdd605a8eec77ede4eaacc5afe16b5c
-  SnappersSDK: 01fbbeca4d266e8b6f9cb2fb2c298f4bae51432b
+  SnappersEncoder: 1a8d42533d41251290561415d9e2ca44ded5c4a1
+  SnappersSDK: cf2214cb42b668cec5bfb7ec1cb474e4a86a7e9e
   SwipeCellKit: 30fd6a4f8a8b8ac864ea389c8b4c8bac5ba5471a
   TwitterCore: cce24b3c798993ccde72787ea79ea9a478b284e4
   TwitterKit: 43600f2d2848c227739efea5b2939585e69339c3
   UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
-  WowzaGoCoderSDK: 3d2de58d178f8c19e0416be353eb3bd7a20b545c
 
-PODFILE CHECKSUM: 7c9b740a3b723b64ea870b856e0064ee8d29c642
+PODFILE CHECKSUM: 4ef210261dde5ea7e92eddef98afbaeb9f486003
 
 COCOAPODS: 1.6.1

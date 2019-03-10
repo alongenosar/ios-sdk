@@ -1,2 +1,4 @@
-SwiftExample/Podfile.lock
-SwiftExample/Pods
+Examples/SwiftExample/Podfile.lock
+Examples/SwiftExample/Pods
+Examples/CordovaExample/platforms/ios/Pods
+Examples/CordovaExample/platforms/ios/Podfile.lock

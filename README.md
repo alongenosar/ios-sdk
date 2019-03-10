@@ -112,39 +112,8 @@ Paste the following snippet into your existing plist.
         </dict>
     </array>
 ```
-## Step 6: Initialize Snappers SDK
-From your ViewController's ​**viewDidLoad​​** method​, use the token and code obtained in stage 2, to initialize the SDK.  
-Check for errors in the callback to ensure successful initialization
 
-Swift:  
-**​ViewController.swift**
-```swift
-import SnappersSDK
-.
-.
-.
-override func viewDidLoad() {
-    SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SECRET") { error in
-	print("error \(String(describing:error))")
-    }
-}
-   
-```
-Objective-C:  
-**​ViewController.m**
-``` objective-c
-@import SnappersSDK;
-.
-.
-.
-- (void)viewDidLoad {
-    [SnappersSDK.shared identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
-        NSLog(@"error %@",error);
-     }];
- }
-```
-
-## Step 7: Add 'Strip architecture' script to avoid rejections when deploying to App Store. 
+## Step 6: Add 'Strip architecture' script to avoid rejections when deploying to App Store. 
 In the target’s **Build Phases** tab add a new script and paste in the following :
 
 ```bash
@@ -175,6 +144,38 @@ echo "Replacing original executable with thinned version"
 rm "$FRAMEWORK_EXECUTABLE_PATH"
 mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 done
+```
+
+## Step 7: Initialize Snappers SDK
+From your ViewController's ​**viewDidLoad​​** method​, use the token and code obtained in stage 2, to initialize the SDK.  
+Check for errors in the callback to ensure successful initialization
+
+Swift:  
+**​ViewController.swift**
+```swift
+import SnappersSDK
+.
+.
+.
+override func viewDidLoad() {
+    SnappersSDK.shared.identify(token: "YOUR TOKEN", secret: "YOUR SECRET") { error in
+	print("error \(String(describing:error))")
+    }
+}
+   
+```
+Objective-C:  
+**​ViewController.m**
+``` objective-c
+@import SnappersSDK;
+.
+.
+.
+- (void)viewDidLoad {
+    [SnappersSDK.shared identifyWithToken:@"YOUR TOKEN" secret:@"YOUR SECRET" :^(NSError * error) {
+        NSLog(@"error %@",error);
+     }];
+ }
 ```
 
 ## Step 8: Present events-map view

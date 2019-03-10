@@ -25,8 +25,8 @@
   },
   "SnappersSDK": {
     "source": {
-      "type": "local",
-      "path": "/Users/alongenosar/Documents/projects/snappers/SnappersSDK/Examples/CordovaExample/node_modules/snappers-sdk"
+      "type": "registry",
+      "id": "file:../../CordovaPlugin/SnappersSDK"
     },
     "is_top_level": true,
     "variables": {}

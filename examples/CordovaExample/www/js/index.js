@@ -8,7 +8,7 @@ var app = {
     onDeviceReady: function() {
         document.getElementById('identifyButton').addEventListener('click',() => {
             document.getElementById("loadingSpinner").style.display = 'block';
-            SnappersSDK.identify("abcde","GOSK-D044-0100-E462-C490-FF81",error => {
+            SnappersSDK.identify("SNAPPERS TOKEN","SNAPPERS SECRET",error => {
             document.getElementById("loadingSpinner").style.display = 'none';
             if(error) alert(error)})
         })

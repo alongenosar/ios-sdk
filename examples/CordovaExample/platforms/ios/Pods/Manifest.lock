@@ -245,7 +245,7 @@ PODS:
   - UIImageView-Letters (1.1.4)
 
 DEPENDENCIES:
-  - SnappersSDK (= 0.2.7)
+  - SnappersSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -331,6 +331,6 @@ SPEC CHECKSUMS:
   TwitterKit: 43600f2d2848c227739efea5b2939585e69339c3
   UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
 
-PODFILE CHECKSUM: 4ef210261dde5ea7e92eddef98afbaeb9f486003
+PODFILE CHECKSUM: aa2de0ec7054e33fcde97be02cf9dfcc27d07ffd
 
 COCOAPODS: 1.6.1

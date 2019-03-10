@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="SnappersSDK" version="0.1.6" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="SnappersSDK" version="0.1.8" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>SnappersSDK</name>
     <js-module name="SnappersSDK" src="www/SnappersSDK.js">
         <clobbers target="SnappersSDK" />
@@ -7,17 +7,15 @@
     <platform name="ios">
         <!-- Hooks -->
         <hook type="after_plugin_add" src="scripts/installCocoaPods.js" />
- 
         <!-- Plugins -->
     	<dependency id="cordova-plugin-add-swift-support"/>
         <dependency id="cordova-plugin-cocoapod-support"/> 
-
          <!-- CocoaPods -->
         <pods-config ios-min-version="10.3" use-frameworks="true">
             <source url="https://github.com/Snappers-tv/ios-sdk.git"/>
             <source url="https://github.com/cocoaPods/Specs.git"/>
         </pods-config>
-        <pod name="SnappersSDK" version="0.2.7"/>
+        <pod name="SnappersSDK"/>
         <config-file target="config.xml" parent="/*">
         <feature name="SnappersSDK">
             <param name="ios-package" value="SnappersSDK"/>

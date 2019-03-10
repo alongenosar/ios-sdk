@@ -44,7 +44,7 @@ Snappers requires the following keys to be addded to the info.plist file.
 	
 Either add them manually one by one, or use the following instructions to add them collectively:
 
-In the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
+from the xCode project, in the Project Navigator, right click on Info.plist, and choose "Open as" → "Source Code"
 Paste the following snippet into your existing plist. just before the closing tags at the end of the file
 ```xml
 .
@@ -92,7 +92,7 @@ If you decide on using Snappers' Facebook or Twitter authentication, We'll requi
 
 Either add them manually one by one, or use the following instructions to add them collectively:
 
-In the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
+from the xCode project, in the Project Navigator, right click on Info.plist, and click "Open as" → "Source Code"
 Paste the following snippet into your existing plist.
 ```xml   
 <key>CFBundleURLTypes</key>
@@ -112,14 +112,41 @@ Paste the following snippet into your existing plist.
     </array>
 ```
 
-## Build Project
-First build of the project after snappers-sdk was added should be from command line, although it wouldn't be able to complete the build succsefully.
-```bash
-$ cordova run ios --buildFlag='-UseModernBuildSystem=0'
-```
-**All builds from now on should run directly from xCode**
+## Step 7: Add 'Strip architecture' script to avoid rejections when deploying to App Store. 
+from the xCode project, In the target’s **Build Phases** tab add a new script and paste in the following :
 
-## Step 6: Initialize Snappers SDK
+```bash
+APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
+find "$APP_PATH" -name 'SnappersSDK.framework' -type d | while read -r FRAMEWORK
+do
+FRAMEWORK_EXECUTABLE_NAME=$(defaults read "$FRAMEWORK/Info.plist" CFBundleExecutable)
+FRAMEWORK_EXECUTABLE_PATH="$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME"
+echo "Executable is $FRAMEWORK_EXECUTABLE_PATH"
+
+EXTRACTED_ARCHS=()
+
+for ARCH in $ARCHS
+do
+echo "Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME"
+lipo -extract "$ARCH" "$FRAMEWORK_EXECUTABLE_PATH" -o "$FRAMEWORK_EXECUTABLE_PATH-$ARCH"
+EXTRACTED_ARCHS+=("$FRAMEWORK_EXECUTABLE_PATH-$ARCH")
+done
+
+echo "Merging extracted architectures: ${ARCHS}"
+lipo -o "$FRAMEWORK_EXECUTABLE_PATH-merged" -create "${EXTRACTED_ARCHS[@]}"
+rm "${EXTRACTED_ARCHS[@]}"
+
+echo "Replacing original executable with thinned version"
+rm "$FRAMEWORK_EXECUTABLE_PATH"
+mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
+
+done
+
+
+
+```
+
+## Step 7: Initialize Snappers SDK
 In www/js/index.js, add the following code to your **onDeviceReady** function. Use the token and code recieved from Snappers to initialize the SDK. **Check for errors in the callback to ensure successful initialization**
 ```javascript
 onDeviceReady: function() {
@@ -133,7 +160,7 @@ onDeviceReady: function() {
 }
 ```
 
-## Step 7: Present events-map view
+## Step 8: Present events-map view
 Once initialized succsefully, you can present the events-map view as following:
 ```javascript
 SnappersSDK.presentView("map",(error)=> {
@@ -141,7 +168,7 @@ SnappersSDK.presentView("map",(error)=> {
         alert(error)
 })
 ```
-## Step 8: Test event invitation notification:
+## Step 9: Test event invitation notification:
 For testing purposes only, you can mockup a broadcast invitation notification.
 Ask Snappers team for an event id required by this action. 
 In this example we set the notification delay parameter to 5.0 seconds. 

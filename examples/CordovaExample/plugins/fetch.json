@@ -7,14 +7,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "SnappersSDK": {
-    "source": {
-      "type": "registry",
-      "id": "snappers-sdk"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-add-swift-support": {
     "source": {
       "type": "registry",
@@ -29,6 +21,14 @@
       "id": "cordova-plugin-cocoapod-support"
     },
     "is_top_level": false,
+    "variables": {}
+  },
+  "SnappersSDK": {
+    "source": {
+      "type": "local",
+      "path": "/Users/alongenosar/Documents/projects/snappers/SnappersSDK/Examples/CordovaExample/node_modules/snappers-sdk"
+    },
+    "is_top_level": true,
     "variables": {}
   }
 }

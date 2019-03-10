@@ -1,0 +1,14 @@
+{
+  "name": "snappers-sdk",
+  "version": "0.1.5",
+  "description": "Snappers SDK cordova plugin",
+  "cordova": {
+    "id": "SnappersSDK",
+    "platforms": ["ios"]
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Dubon Ya'ar",
+  "license": "ISC"
+}

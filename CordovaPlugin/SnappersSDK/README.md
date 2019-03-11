@@ -143,7 +143,7 @@ done
 
 ## Step 7: Notifications (Optional)
 Snappers SDK works best when sending users invitations to broadcast via push notifications.  
-If you wish to use this feature, we will also need you to send us your apple push notification certificate.
+If you wish to use this feature, we will also need you to send us your apple push notification certificate, along with its password.
 
 ## Step 8:  Using Snappers API
 You can  continue to our [step by step API tutorial](https://github.com/Snappers-tv/ios-sdk/blob/master/Documentation/CORDOVA_API.MD)  

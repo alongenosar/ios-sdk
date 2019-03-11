@@ -22,7 +22,7 @@
 Snappers identifies developers by their app's bundle id. 
 To create a developer account and obtain the token and secret codes required by the SDK, drop us a message to info@snappers.tv, and include your app's bundle id.  
 
-Snapper's SDK works best when sending users invitations to broadcast via push notificcations. If you wish tu use this feature, we will also need you to send us your Apple's push notification certificate.
+Snappers SDK works best when sending users invitations to broadcast via push notifications. If you wish to use this feature, we will also need you to include your Apple's push notification certificate.
 
 ## Step 3: Configure App Settings
 1. In Xcode, from the target’s Build Settings tab, set **Enable Bitcode** option to ​ **NO.**
@@ -143,6 +143,6 @@ mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 done
 ```
 
-## Step *: Where from here?
+## Step 8: Where from here?
 You can  continue to our [step by step API tutorial](https://github.com/Snappers-tv/ios-sdk/blob/master/Documentation/CORDOVA_API.MD)  
 Or test SnappersSDK plugin using our Cordova demo app found [here](https://github.com/Snappers-tv/ios-sdk/tree/master/examples/CordovaExample)

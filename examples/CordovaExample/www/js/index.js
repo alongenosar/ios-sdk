@@ -8,7 +8,7 @@ var app = {
     onDeviceReady: function() {
         document.getElementById('identifyButton').addEventListener('click',() => {
             document.getElementById("loadingSpinner").style.display = 'block';
-            SnappersSDK.identify("SNAPPERS TOKEN","SNAPPERS SECRET",error => {
+            SnappersSDK.identify("API TOKEN","API SECRET",error => {
             document.getElementById("loadingSpinner").style.display = 'none';
             if(error) alert(error)})
         })

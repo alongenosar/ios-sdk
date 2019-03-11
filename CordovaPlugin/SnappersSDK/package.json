@@ -1,6 +1,6 @@
 {
   "name": "snappers-sdk",
-  "version": "0.2.83",
+  "version": "0.2.84",
   "description": "Snappers SDK cordova plugin",
   "cordova": {
     "id": "SnappersSDK",
@@ -10,5 +10,5 @@
     "ecosystem:cordova"
   ],
   "author": "Dubon Ya'ar",
-  "license": "ISC"
+  "license": "Snappers.tv LTD"
 }

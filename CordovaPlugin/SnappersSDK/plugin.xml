@@ -9,7 +9,7 @@
         <hook type="after_plugin_add" src="scripts/installCocoaPods.js" />
         <!-- Plugins -->
     	<dependency id="cordova-plugin-add-swift-support"/>
-        <dependency id="s"/> 
+        <dependency id="cordova-plugin-cocoapod-support"/> 
          <!-- CocoaPods -->
         <pods-config ios-min-version="10.3" use-frameworks="true">
             <source url="https://github.com/Snappers-tv/ios-sdk.git"/>

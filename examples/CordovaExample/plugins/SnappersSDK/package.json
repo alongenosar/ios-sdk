@@ -1,6 +1,6 @@
 {
   "name": "snappers-sdk",
-  "version": "0.1.8",
+  "version": "0.2.81",
   "description": "Snappers SDK cordova plugin",
   "cordova": {
     "id": "SnappersSDK",

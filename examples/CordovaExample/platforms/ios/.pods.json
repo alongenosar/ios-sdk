@@ -2,7 +2,8 @@
 	"pods": {
 		"SnappersSDK": {
 			"type": "pod",
-			"name": "SnappersSDK"
+			"name": "SnappersSDK",
+			"version": "0.2.8"
 		}
 	},
 	"sources": {

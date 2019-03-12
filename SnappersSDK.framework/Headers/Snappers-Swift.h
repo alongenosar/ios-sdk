@@ -571,6 +571,7 @@ enum SnappersView : NSInteger;
 
 
 @interface SnappersSDK (SWIFT_EXTENSION(SnappersSDK))
+- (void)setUNNotificationCenterWithDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate;
 - (void)application:(UIApplication * _Nonnull)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nonnull)deviceToken;
 @end
 

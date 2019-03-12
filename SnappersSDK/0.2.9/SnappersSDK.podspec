@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
   s.dependency 'UIImageView-Letters'
   s.dependency 'SwipeCellKit'
   s.dependency 'Kingfisher'
-  s.subspec 'FBSDKLoginKit' do |sub| sub.dependency 'FBSDKLoginKit', '~> 4.38.0'  end
+  s.dependency 'FBSDKLoginKit'
+  #s.subspec 'FBSDKLoginKit' do |sub| sub.dependency 'FBSDKLoginKit', '~> 4.38.0'  end
   s.subspec 'Sentry' do |sub| sub.dependency 'Sentry', '3.12.0' end
   s.subspec 'TwitterKit' do |sub| sub.dependency 'TwitterKit', '1.15.3' end
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE

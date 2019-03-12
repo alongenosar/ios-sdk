@@ -3,5 +3,5 @@ use_frameworks!
 source 'https://github.com/Snappers-tv/ios-sdk.git'
 source 'https://github.com/cocoaPods/Specs.git'
 target 'CordovaExample' do
-	pod 'SnappersSDK', '0.2.8'
+	pod 'SnappersSDK', '0.3.0'
 end

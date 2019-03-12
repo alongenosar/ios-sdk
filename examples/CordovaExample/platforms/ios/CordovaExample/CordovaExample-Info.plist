@@ -17,9 +17,24 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1973807389602856</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-c8k1VkrIs7tHDuHkcc5kzLJAX</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -29,10 +44,22 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>We require access in order to record and broadcast videos</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We require access to your location in order to match relevant events for your location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We require access to your location  to find relevant events for you and to validate users content origin</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We require access to your location  to find relevant events for you and to validate users content origin</string>
 	<key>NSMainNibFile</key>
-	<string/>
+	<string></string>
 	<key>NSMainNibFile~ipad</key>
-	<string/>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We requires access to your microphone in order to record and broadcast videos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We require access to your photo library to allow you to upload prerecorded videos</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
@@ -52,33 +79,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>We require access in order to record and broadcast videos</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We require access to your location in order to match relevant events for your location</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We require access to your location  to find relevant events for you and to validate users content origin</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We require access to your location  to find relevant events for you and to validate users content origin</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>We requires access to your microphone in order to record and broadcast videos</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>We require access to your photo library to allow you to upload prerecorded videos</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb1973807389602856</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>twitterkit-c8k1VkrIs7tHDuHkcc5kzLJAX</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>

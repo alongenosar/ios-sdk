@@ -22,8 +22,6 @@
 Snappers identifies developers by their app's bundle id. 
 To create a developer account and obtain the token and secret codes required by the SDK, drop us a message to info@snappers.tv, and include your app's bundle id.  
 
-Snapper's SDK works best when sending users invitations to broadcast via push notificcations. If you wish tu use this feature, we will also need you to send us your Apple's push notification certificate.
-
 ## Step 3: Configure App Settings
 1. In Xcode, from the target’s Build Settings tab, set **Enable Bitcode** option to ​ **NO.**
 2. In the target’s Capabilities tab, enable **Push Notifications**, **Keychain Sharing** and **Background Modes**.  
@@ -113,7 +111,7 @@ Paste the following snippet into your existing plist.
     </array>
 ```
 
-## Step 7: Add 'Strip architecture' script to avoid rejections when deploying to App Store. 
+## Step 6: Add 'Strip architecture' script to avoid rejections when deploying to App Store. 
 from the xCode project, In the target’s **Build Phases** tab add a new script and paste in the following :
 
 ```bash
@@ -143,6 +141,13 @@ mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 done
 ```
 
-## Step *: Where from here?
+## Step 7: Notifications (Optional)
+Snappers SDK works best when sending users invitations to broadcast via push notifications.  
+If you wish to use this feature, we will also need you to send us your apple push notification certificate, along with its password.
+
+## Step 8:  Using Snappers API
 You can  continue to our [step by step API tutorial](https://github.com/Snappers-tv/ios-sdk/blob/master/Documentation/CORDOVA_API.MD)  
 Or test SnappersSDK plugin using our Cordova demo app found [here](https://github.com/Snappers-tv/ios-sdk/tree/master/examples/CordovaExample)
+
+
+

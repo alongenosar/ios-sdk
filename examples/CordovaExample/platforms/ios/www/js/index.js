@@ -8,7 +8,7 @@ var app = {
     onDeviceReady: function() {
         document.getElementById('identifyButton').addEventListener('click',() => {
             document.getElementById("loadingSpinner").style.display = 'block';
-            SnappersSDK.identify("API TOKEN","API SECRET",error => {
+            SnappersSDK.identify("goCNN","GOSK-D044-0100-E462-C490-FF81",error => {
             document.getElementById("loadingSpinner").style.display = 'none';
             if(error) alert(error)})
         })
@@ -44,7 +44,6 @@ var app = {
         })
         document.getElementById('testNotificationButton').addEventListener('click',() => {
             document.getElementById("loadingSpinner").style.display = 'block';
-            alert(document.getElementById("eventIdTF").value)
             SnappersSDK.requestTestInvitation(document.getElementById("eventIdTF").value,5.0,(error)=> {
                document.getElementById("loadingSpinner").style.display = 'none';
               if(error) alert(error)})

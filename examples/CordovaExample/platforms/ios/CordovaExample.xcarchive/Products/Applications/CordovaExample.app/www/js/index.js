@@ -8,7 +8,7 @@ var app = {
     onDeviceReady: function() {
         document.getElementById('identifyButton').addEventListener('click',() => {
             document.getElementById("loadingSpinner").style.display = 'block';
-            SnappersSDK.identify("abcde","GOSK-D044-0100-E462-C490-FF81",error => {
+            SnappersSDK.identify("goCNN","GOSK-D044-0100-E462-C490-FF81",error => {
             document.getElementById("loadingSpinner").style.display = 'none';
             if(error) alert(error)})
         })
@@ -44,7 +44,7 @@ var app = {
         })
         document.getElementById('testNotificationButton').addEventListener('click',() => {
             document.getElementById("loadingSpinner").style.display = 'block';
-            SnappersSDK.requestTestInvitation("-LZnIwLcy9zeiVGJaB7t",5.0,(error)=> {
+            SnappersSDK.requestTestInvitation(document.getElementById("eventIdTF").value,5.0,(error)=> {
                document.getElementById("loadingSpinner").style.display = 'none';
               if(error) alert(error)})
         })

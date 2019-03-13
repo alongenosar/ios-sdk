@@ -3,7 +3,7 @@
 		"SnappersSDK": {
 			"type": "pod",
 			"name": "SnappersSDK",
-			"version": "0.3.1"
+			"version": "0.3.2"
 		}
 	},
 	"sources": {

@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		092D7D4281C3418DA4984BB6 /* SnappersSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3C1392A8B48099E064E3D /* SnappersSDK.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		4579B7B196A21F3CDA7D5D89 /* Pods_CordovaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F506013B851318DD254172 /* Pods_CordovaExample.framework */; };
-		50EC068F423642C886830984 /* SnappersSDK.h in Sources */ = {isa = PBXBuildFile; fileRef = 28FDDCB58A7D456CAADAA0D6 /* SnappersSDK.h */; };
-		61CC074ACAEA461192323964 /* SnappersSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3681A82FC9413DAF722DAA /* SnappersSDK.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		A3B24C0CCB6E4DD8ACF12591 /* SnappersSDK.h in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C195BAF5C43F79DA5970E /* SnappersSDK.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* CordovaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordovaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28FDDCB58A7D456CAADAA0D6 /* SnappersSDK.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SnappersSDK.h; path = SnappersSDK/SnappersSDK.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -60,10 +59,11 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CordovaExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CordovaExample-Prefix.pch"; sourceTree = "<group>"; };
+		38A3C1392A8B48099E064E3D /* SnappersSDK.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SnappersSDK.m; path = SnappersSDK/SnappersSDK.m; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = CordovaExample/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		7E1B3B444C56FD27D010E7CF /* Pods-CordovaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CordovaExample.debug.xcconfig"; path = "Target Support Files/Pods-CordovaExample/Pods-CordovaExample.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CordovaExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CordovaExample-Info.plist"; path = "CordovaExample/CordovaExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		BB3681A82FC9413DAF722DAA /* SnappersSDK.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SnappersSDK.m; path = SnappersSDK/SnappersSDK.m; sourceTree = "<group>"; };
+		8D2C195BAF5C43F79DA5970E /* SnappersSDK.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SnappersSDK.h; path = SnappersSDK/SnappersSDK.h; sourceTree = "<group>"; };
 		EB7B4DC3AD4A819752B5CC0D /* Pods-CordovaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CordovaExample.release.xcconfig"; path = "Target Support Files/Pods-CordovaExample/Pods-CordovaExample.release.xcconfig"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
@@ -185,8 +185,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				28FDDCB58A7D456CAADAA0D6 /* SnappersSDK.h */,
-				BB3681A82FC9413DAF722DAA /* SnappersSDK.m */,
+				8D2C195BAF5C43F79DA5970E /* SnappersSDK.h */,
+				38A3C1392A8B48099E064E3D /* SnappersSDK.m */,
 			);
 			name = Plugins;
 			path = CordovaExample/Plugins;
@@ -457,8 +457,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				50EC068F423642C886830984 /* SnappersSDK.h in Sources */,
-				61CC074ACAEA461192323964 /* SnappersSDK.m in Sources */,
+				A3B24C0CCB6E4DD8ACF12591 /* SnappersSDK.h in Sources */,
+				092D7D4281C3418DA4984BB6 /* SnappersSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +486,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZYTNB859TJ;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -519,7 +519,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZYTNB859TJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CordovaExample/CordovaExample-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;

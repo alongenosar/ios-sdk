@@ -153,7 +153,7 @@ PODS:
   - Sentry/KSCrash (3.12.0):
     - KSCrash/Core (~> 1.15.12)
   - SnappersEncoder (0.0.1)
-  - SnappersSDK (0.3.1):
+  - SnappersSDK (0.3.2):
     - AWSS3
     - EVReflection
     - Firebase/Auth
@@ -171,13 +171,13 @@ PODS:
     - SDWebImage
     - Sentry
     - SnappersEncoder
-    - SnappersSDK/FBSDKCoreKit (= 0.3.1)
-    - SnappersSDK/FBSDKLoginKit (= 0.3.1)
-    - SnappersSDK/Sentry (= 0.3.1)
-    - SnappersSDK/TwitterKit (= 0.3.1)
+    - SnappersSDK/FBSDKCoreKit (= 0.3.2)
+    - SnappersSDK/FBSDKLoginKit (= 0.3.2)
+    - SnappersSDK/Sentry (= 0.3.2)
+    - SnappersSDK/TwitterKit (= 0.3.2)
     - SwipeCellKit
     - UIImageView-Letters
-  - SnappersSDK/FBSDKCoreKit (0.3.1):
+  - SnappersSDK/FBSDKCoreKit (0.3.2):
     - AWSS3
     - EVReflection
     - FBSDKCoreKit (~> 4.40.0)
@@ -198,7 +198,7 @@ PODS:
     - SnappersEncoder
     - SwipeCellKit
     - UIImageView-Letters
-  - SnappersSDK/FBSDKLoginKit (0.3.1):
+  - SnappersSDK/FBSDKLoginKit (0.3.2):
     - AWSS3
     - EVReflection
     - FBSDKLoginKit (~> 4.40.0)
@@ -219,7 +219,7 @@ PODS:
     - SnappersEncoder
     - SwipeCellKit
     - UIImageView-Letters
-  - SnappersSDK/Sentry (0.3.1):
+  - SnappersSDK/Sentry (0.3.2):
     - AWSS3
     - EVReflection
     - Firebase/Auth
@@ -239,7 +239,7 @@ PODS:
     - SnappersEncoder
     - SwipeCellKit
     - UIImageView-Letters
-  - SnappersSDK/TwitterKit (0.3.1):
+  - SnappersSDK/TwitterKit (0.3.2):
     - AWSS3
     - EVReflection
     - Firebase/Auth
@@ -268,7 +268,7 @@ PODS:
   - UIImageView-Letters (1.1.4)
 
 DEPENDENCIES:
-  - SnappersSDK (= 0.3.1)
+  - SnappersSDK (= 0.3.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -348,12 +348,12 @@ SPEC CHECKSUMS:
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   Sentry: 74233cedacdd605a8eec77ede4eaacc5afe16b5c
   SnappersEncoder: 1a8d42533d41251290561415d9e2ca44ded5c4a1
-  SnappersSDK: e0e4ac274692166137fd3ff086106b3e13522d8b
+  SnappersSDK: 5628321aaab89182b83198a1ca4c5f54159ffdf0
   SwipeCellKit: 30fd6a4f8a8b8ac864ea389c8b4c8bac5ba5471a
   TwitterCore: cce24b3c798993ccde72787ea79ea9a478b284e4
   TwitterKit: 43600f2d2848c227739efea5b2939585e69339c3
   UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
 
-PODFILE CHECKSUM: 534b7ffe1e35d9d0ae5580b5e547544fda17d2eb
+PODFILE CHECKSUM: 7b19c8b5e57e8778b3798a796332d8dce7a3f0bb
 
 COCOAPODS: 1.6.1

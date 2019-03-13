@@ -63,55 +63,31 @@
 
 #pragma mark View lifecycle
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    // View defaults to full size.  If you want to customize the view's size, or its subviews (e.g. webView),
-    // you can do so here.
 
-    [super viewWillAppear:animated];
-}
+//- (UIWebView*) newCordovaViewWithFrame:(CGRect)bounds
+//{
+//    return [super newCordovaViewWithFrame:bounds];
+//}
+//
+//
+//#if __IPHONE_OS_VERSION_MAX_ALLOWED < 90000
+//- (NSUInteger)supportedInterfaceOrientations
+//#else
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+//#endif
+//{
+//    return [super supportedInterfaceOrientations];
+//}
+//
+//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+//    return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+//}
+//
+//- (BOOL)shouldAutorotate
+//{
+//    return NO;
+//}
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-/* Comment out the block below to over-ride */
-
-/*
-- (UIWebView*) newCordovaViewWithFrame:(CGRect)bounds
-{
-    return[super newCordovaViewWithFrame:bounds];
-}
-
-// CB-12098
-#if __IPHONE_OS_VERSION_MAX_ALLOWED < 90000  
-- (NSUInteger)supportedInterfaceOrientations
-#else  
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-#endif
-{
-    return [super supportedInterfaceOrientations];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation 
-{
-    return [super shouldAutorotateToInterfaceOrientation:interfaceOrientation];
-}
-
-- (BOOL)shouldAutorotate 
-{
-    return [super shouldAutorotate];
-}
-*/
 
 @end
 

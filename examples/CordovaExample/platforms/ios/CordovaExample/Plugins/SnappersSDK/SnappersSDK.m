@@ -24,7 +24,7 @@
     }];
 }
 - (void) presentView:(CDVInvokedUrlCommand *)command {
-     [self.commandDelegate runInBackground:^{
+    // [self.commandDelegate runInBackground:^{
         NSString *type = command.arguments[0];
         if(![type isEqualToString:@"map"] &&  ![type isEqualToString:@"list"]) {
             [self.commandDelegate sendPluginResult:[self generateErrorResult:@"supported view types are map or list"]  callbackId:command.callbackId];
@@ -36,7 +36,7 @@
             else
                 [self.commandDelegate sendPluginResult:[self generateErrorResult:error.description]  callbackId:command.callbackId];
         }];
-     }];
+    // }];
 }
 - (void) socialLogin:(CDVInvokedUrlCommand *)command {
     [self.commandDelegate runInBackground:^{

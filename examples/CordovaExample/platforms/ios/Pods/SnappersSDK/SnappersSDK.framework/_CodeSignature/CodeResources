@@ -6,11 +6,11 @@
 	<dict>
 		<key>ActionSheetButtonCell.nib</key>
 		<data>
-		Wtj8WfLpUCliU+lucGmWZPOJgUg=
+		vnSFSsu1CRn2weKNyT2NQBomJiw=
 		</data>
 		<key>ActionSheetTitleCell.nib</key>
 		<data>
-		WpHhgieCtiID8L/bF2Pqz44J8PQ=
+		kej1i0eHxhqj4oXJIO21ck2kw30=
 		</data>
 		<key>AmericanDoor.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		P6GjQvgx8Rgvzc5U5kxG/jXUQZg=
+		5WOAOTqh9z7Bob/ZeiV9kZIyl84=
 		</data>
 		<key>Becomeadinosaur.json</key>
 		<data>
@@ -30,27 +30,27 @@
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
-		bd/AjjbWiJUWvZUpX4Vapp32pk4=
+		FJV16lcZCL6P6UOsg7oooMkhGBU=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.mom</key>
 		<data>
-		Ig+NvdKhK8ROzErUjRUTCgl2Hk4=
+		SwQTlrDtwPAM/jVuyT/Cwka0oQg=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.omo</key>
 		<data>
-		lkuHjEc3NYppZ9ty56waNrwz44s=
+		189febIP4NNIUbSlgm8hD6XOkv4=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.mom</key>
 		<data>
-		FFbX306ig2PY+n623EUdmBbBjtM=
+		3ra+/QLUlzrrWmExu8FvgGJSneU=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist</key>
 		<data>
-		KpQfA9Mkzcsta8XtXtoP0iUcrfQ=
+		+SdbzNPhdx+DGxCAkXasnj7DCTI=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car</key>
 		<data>
-		3tVUCN6eRmKMy3VJwef0ROmuBiQ=
+		+CyJ74Qw4y+TrHist5Q/TcP1MLw=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf</key>
 		<data>
@@ -82,19 +82,19 @@
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png</key>
 		<data>
-		EWBdPfava/wyOvJzwjjrb/duCps=
+		BoR26SfXIcXYED6F7lQKTbOMdw0=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png</key>
 		<data>
-		qdfSsxqXu+cyeOAXclm8SMqA4X0=
+		366+bxvrRnyaaZorv32FRnCoSxA=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png</key>
 		<data>
-		n786WUj7hGtZZRTeMetonUS85d0=
+		zjlPqNnkcXW+t8PuUkGmEP2Hpy0=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist</key>
 		<data>
-		8MLrAZjGJb+fXid7ejuyQ+ZwELI=
+		dDu3Ho//AjXpnM9uSwDbwvO839g=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf</key>
 		<data>
@@ -234,7 +234,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ft1D61/W/r3FZmd8c8CADaYCv30=
+			9LOygLJ8md/G+jiArlv6+/DKCeA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -288,7 +288,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xgFKAKyAH3YYZtX+0y1mdX6WhVU=
+			9JSM+xgi/BkmhL/azBAcSLgW2Lo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aoBY1g8UIyyahWQVRpoecF0lWC0=
+			55835hos9MYeuRtSPu3BuheMwl4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -386,7 +386,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xgFKAKyAH3YYZtX+0y1mdX6WhVU=
+			9JSM+xgi/BkmhL/azBAcSLgW2Lo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -404,7 +404,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wk7gFJl7LIz/StkOL9qHUwfZuBQ=
+			bdZATDl5fH8ysvZKOhhk59Jocpk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -597,46 +597,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_endcap.png</key>
-		<data>
-		JMIzIZ9izwPLkFbGpybEDcjnz7c=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_fast.png</key>
-		<data>
-		AAR1u0EDgizTO6c+arDush1MFXQ=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_fast_night.png</key>
-		<data>
-		20aMPRfTp4RiaEJ3gmioP38pYck=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_slow.png</key>
-		<data>
-		RjXvPqYlk8TLbeVMqI1rRLGGxkM=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_slow_night.png</key>
-		<data>
-		QSU98IRtVJFtlfNGOUjel2Eq+1c=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_startcap.png</key>
-		<data>
-		G+epinU1D/ABNNd9znBSZ13ndrE=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stop_and_go.png</key>
-		<data>
-		AMt9ccrqHczFtAFDe6+VLmtwYEU=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stop_and_go_night.png</key>
-		<data>
-		iRrGWbJn8f/O0D0bmZL8s3ivjoU=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stopped.png</key>
-		<data>
-		gdjNv/dDFdFHlN/jV6678f3dtEo=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stopped_night.png</key>
-		<data>
-		DErXBfMg+reu+FeXyAGYDtoI3ZI=
-		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings</key>
 		<dict>
 			<key>hash</key>
@@ -684,7 +644,7 @@
 		</dict>
 		<key>GoogleMaps.bundle/Info.plist</key>
 		<data>
-		8P230nRjfYIZ48JgMcXHbhv6Tn0=
+		xFuQyt0oBeMYNm3U5xK38riXlTw=
 		</data>
 		<key>GoogleMaps.bundle/bubble_left.png</key>
 		<data>
@@ -736,11 +696,11 @@
 		</data>
 		<key>GoogleMaps.bundle/oss_licenses_maps.txt.gz</key>
 		<data>
-		kcxaexbTn6EsmMy0z7mtxvsBsbw=
+		Epco6rDgESnntJo9zot5CIgdHss=
 		</data>
 		<key>GooglePlaces.bundle/Info.plist</key>
 		<data>
-		8XYcfsSRjH2aMGBn10R3jEgBmo0=
+		QCHZcrMx6V76PJ13wiDZigQxttg=
 		</data>
 		<key>GooglePlaces.bundle/ar.lproj/GooglePlaces.strings</key>
 		<dict>
@@ -764,7 +724,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vFjcNTYW2Dq5gX92sjO3gDLU7io=
+			VGhTVQmopiIazrIVnjHPycvO/K0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -899,7 +859,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OP0MD6Qf1tnTj216fpO+H2o+UWw=
+			a7YFDK5kzACSRsO4c9OoYa6k+dg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1023,7 +983,7 @@
 		</dict>
 		<key>GooglePlaces.bundle/oss_licenses_places.txt.gz</key>
 		<data>
-		kcxaexbTn6EsmMy0z7mtxvsBsbw=
+		Epco6rDgESnntJo9zot5CIgdHss=
 		</data>
 		<key>GooglePlaces.bundle/pl.lproj/GooglePlaces.strings</key>
 		<dict>
@@ -1149,7 +1109,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SMbqbb445CorZZvuaXpI28GpgOc=
+			CNfIO92+b5RHWbg3OmelMvNJLdY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1226,11 +1186,11 @@
 		</data>
 		<key>HUD.nib/objects-11.0+.nib</key>
 		<data>
-		b8dhfEzJ6OftOGcDGMNPCkcBZjs=
+		CDC43j0JiXXjTna4d/9q5sTcEZ8=
 		</data>
 		<key>HUD.nib/runtime.nib</key>
 		<data>
-		tvfwEwCNarBz/t2uwSiFZ0LOZoA=
+		YI9MbJtcAJYUeS5EuNIiKYsrRfU=
 		</data>
 		<key>Headers/GFBase32Utils.h</key>
 		<data>
@@ -1326,7 +1286,7 @@
 		</data>
 		<key>Headers/Snappers-Swift.h</key>
 		<data>
-		VNOjX18pcxMRa4IRBvCKH1HqOQ0=
+		+oBDTxnwB7hr4I1nZo5J1oeOLIU=
 		</data>
 		<key>Headers/SnappersSDK.h</key>
 		<data>
@@ -1346,7 +1306,7 @@
 		</data>
 		<key>Modules/SnappersSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		w/ZZ7ab93j1rnk0RWwERTrd2dB0=
+		TGfCbVd6trz/2uRnfWji121GK+Q=
 		</data>
 		<key>Modules/SnappersSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -1354,7 +1314,7 @@
 		</data>
 		<key>Modules/SnappersSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		gPOA4kTNQBBKy7xOg61LeqdECIU=
+		J3nLSz3VYRBiQwSWyrsZT9LtLpA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1366,159 +1326,159 @@
 		</data>
 		<key>NewMain.storyboardc/9Bg-JV-S5v-view-oOl-35-udH.nib/objects-11.0+.nib</key>
 		<data>
-		gU3jGP7X1NfAHhabYLwfslqvNc8=
+		t24IXHYq/yR95OmG//IRxXACZiI=
 		</data>
 		<key>NewMain.storyboardc/9Bg-JV-S5v-view-oOl-35-udH.nib/runtime.nib</key>
 		<data>
-		TfR1BU2V3W2LLBos63vM9+LQK3Y=
+		Hs/uiNDk3a1VGvY2P4kqHqFItJ8=
 		</data>
 		<key>NewMain.storyboardc/AffiliateLoginViewController.nib/objects-11.0+.nib</key>
 		<data>
-		V4IHXXzlIwABwFPilCBED1lgO5A=
+		kuYUD2v+bILARtmFu8JrnghHUZk=
 		</data>
 		<key>NewMain.storyboardc/AffiliateLoginViewController.nib/runtime.nib</key>
 		<data>
-		y6J5gnSOflLtTtYImSkMhNya0Uc=
+		QkAn9whI0WW+86l65iIc1+fLI5w=
 		</data>
 		<key>NewMain.storyboardc/C5V-0O-v3e-view-bfl-m4-MXT.nib/objects-11.0+.nib</key>
 		<data>
-		OcMjdkZY7Q1uAjm/P3nqbcsRE5M=
+		5W/6C1l/NqOXwY1KtGe7j0BJLCA=
 		</data>
 		<key>NewMain.storyboardc/C5V-0O-v3e-view-bfl-m4-MXT.nib/runtime.nib</key>
 		<data>
-		cRCsvfzL6/N9MfwFCT0g4YhC/s8=
+		q4oGAaS2MvhDjKC4nhkfODDyXL0=
 		</data>
 		<key>NewMain.storyboardc/EventsTableViewController.nib/objects-11.0+.nib</key>
 		<data>
-		yxkP9gx7Z3TA97lXEs41av0TcO8=
+		I/vMLqJZUrEwhDO2eYs+mGal5Sk=
 		</data>
 		<key>NewMain.storyboardc/EventsTableViewController.nib/runtime.nib</key>
 		<data>
-		5QJOWHsgjDkRBdld2T5rLdl0ook=
+		RtMAcNvaqtp8L54jCoR+0e5LFH8=
 		</data>
 		<key>NewMain.storyboardc/Info.plist</key>
 		<data>
-		0Umxs3nkuaETeShA5jU5YVVzQAk=
+		dN5f0+1bnnHRkNtGpEupu4i4NHI=
 		</data>
 		<key>NewMain.storyboardc/K2l-TT-Sxp-view-nf0-io-dmc.nib/objects-11.0+.nib</key>
 		<data>
-		AbWtlt6HKp/nIwOLkTiSJ/JN+14=
+		GOb2wduSNsReW+HXvWVkCpeT8Fg=
 		</data>
 		<key>NewMain.storyboardc/K2l-TT-Sxp-view-nf0-io-dmc.nib/runtime.nib</key>
 		<data>
-		C7T7IdHpRCeEFfbGKBu9B/+1jOI=
+		StEIkZyv1T2wOft7arDLZIc0ZnM=
 		</data>
 		<key>NewMain.storyboardc/LocationAuthorizationViewController.nib/objects-11.0+.nib</key>
 		<data>
-		vwPtSdUJTRjMmFPCWjALp5VZSLQ=
+		bSvInitrsN1W1s5I6WvWz00Vf1c=
 		</data>
 		<key>NewMain.storyboardc/LocationAuthorizationViewController.nib/runtime.nib</key>
 		<data>
-		D8ftH3XhuGUqaodBv7ruQlSpaCg=
+		8vnrfKs8yxW5HLOrddRv/Bq7KqA=
 		</data>
 		<key>NewMain.storyboardc/MainViewController.nib/objects-11.0+.nib</key>
 		<data>
-		Ein8Rg2fu1FOJAlDHoq+mx8VTZ0=
+		tKNktjtl/J4uQB63Dk99N6MyIPA=
 		</data>
 		<key>NewMain.storyboardc/MainViewController.nib/runtime.nib</key>
 		<data>
-		/KtbQQ6zGrJCwgl22lhB9sMI12o=
+		IYc2Dgu1f/HSMKehGajU8UEgEMc=
 		</data>
 		<key>NewMain.storyboardc/NavigationViewController.nib/objects-11.0+.nib</key>
 		<data>
-		tiOiE4HceBEpvdOBT+uv0aEgU44=
+		m7gzNnH86EjquYPsBsmFHWo0Jak=
 		</data>
 		<key>NewMain.storyboardc/NavigationViewController.nib/runtime.nib</key>
 		<data>
-		9OIeEn+xXJk+iF/j1jeqIVIaEbw=
+		fhh3oTfPRnMztYmkJhSKNsa7NfE=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-9Bg-JV-S5v.nib/objects-11.0+.nib</key>
 		<data>
-		w9mjRoFBy3AnnFBrLdBlA9cdSo4=
+		MQZQjxVo3+88IzYsPMiRN1/wJ0E=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-9Bg-JV-S5v.nib/runtime.nib</key>
 		<data>
-		Tg45jyqrj2aPN54thbXItlBh6F8=
+		SEWP5+TF46JPnITTaULLzX1DpMg=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-Z57-SK-Xgd.nib/objects-11.0+.nib</key>
 		<data>
-		VC25H6UFnk9hnp2ifIdppQ15jQ4=
+		stw3LVwleE5Th2ScmeWLtmJ70FY=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-Z57-SK-Xgd.nib/runtime.nib</key>
 		<data>
-		A4ocSU3mkwzID09ZG83nhom4R60=
+		FDI7X+uqqLaRaZfdpq5kERIAABk=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-pSO-XX-Kvu.nib/objects-11.0+.nib</key>
 		<data>
-		Zf73btK1pA/FM++/qjZww/zmJtI=
+		HZXB9B5u0au+XGl1JqePipW5UJ4=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-pSO-XX-Kvu.nib/runtime.nib</key>
 		<data>
-		3RnjFWrVDRqfRSvQJAQ57jGtpzA=
+		D21zLgC+M89ObC4I+C4WulyhfxQ=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-wcb-5c-6OZ.nib/objects-11.0+.nib</key>
 		<data>
-		dP+IkbdQ7Npb3J0eHQ0bWZGDA7E=
+		WR3EG3Qa+uziK7vUMB+wHb/qn6A=
 		</data>
 		<key>NewMain.storyboardc/UIViewController-wcb-5c-6OZ.nib/runtime.nib</key>
 		<data>
-		iayskOrIFti2N/3VZus29/S75Og=
+		3kYFCi3gtIEhxPNf58iEeXX71Vk=
 		</data>
 		<key>NewMain.storyboardc/VQk-xy-fLN-view-Bec-Zr-O2Y.nib/objects-11.0+.nib</key>
 		<data>
-		1qu0xMhIKpFccwluGP0dsf+i15k=
+		6wg/54fHqNncougZ4lPOgj0QPqA=
 		</data>
 		<key>NewMain.storyboardc/VQk-xy-fLN-view-Bec-Zr-O2Y.nib/runtime.nib</key>
 		<data>
-		QjHihA4hYBR4VmCcivIYNTYl35w=
+		pcLxDq3OHEHYF/pd4MqRTUeL2Qg=
 		</data>
 		<key>NewMain.storyboardc/VideoRecorderViewController.nib/objects-11.0+.nib</key>
 		<data>
-		fIBAIfggfEXtilZkll7tm354/4E=
+		Coh2rk8h5Nk3aA0JCU/G4tDObA4=
 		</data>
 		<key>NewMain.storyboardc/VideoRecorderViewController.nib/runtime.nib</key>
 		<data>
-		kRlCtGVFLqtWR+sp1na04LE/Uo4=
+		OqxqD4KhgvpKNB5WyR+L1ghCb5o=
 		</data>
 		<key>NewMain.storyboardc/Xc3-jf-Gcf-view-6rX-vE-9jH.nib/objects-11.0+.nib</key>
 		<data>
-		36ngbqCLrB1dCNM/jaFtLka5pIE=
+		m7X7oncuWOS0+CN/RdPM3vG5etw=
 		</data>
 		<key>NewMain.storyboardc/Xc3-jf-Gcf-view-6rX-vE-9jH.nib/runtime.nib</key>
 		<data>
-		dQXkYP69ckSAPTAqrIDc/pGm/mw=
+		sXw83GNnhdVQOovqVrHR8vvbmpk=
 		</data>
 		<key>NewMain.storyboardc/Z57-SK-Xgd-view-bgI-lE-Rgd.nib/objects-11.0+.nib</key>
 		<data>
-		R8cyKT073lczeRIH/ropuMy7VvI=
+		Rm+dpLLRqaQf9yohfiW1o5bR4p8=
 		</data>
 		<key>NewMain.storyboardc/Z57-SK-Xgd-view-bgI-lE-Rgd.nib/runtime.nib</key>
 		<data>
-		PSup37TL1QEH+TdKM88yMwYg6VQ=
+		BwxtV7KqD/kATL9irLH171dShvw=
 		</data>
 		<key>NewMain.storyboardc/kJE-9S-4dV-view-kMx-Tf-anJ.nib/objects-11.0+.nib</key>
 		<data>
-		ZPzSt3Jq7NJ5E3CYBrRpvec9g/Q=
+		yu2HWbY9g3LTKBinniieaxpnjiM=
 		</data>
 		<key>NewMain.storyboardc/kJE-9S-4dV-view-kMx-Tf-anJ.nib/runtime.nib</key>
 		<data>
-		iqxb16IFrf8wKhYeMp/8sZHIVp0=
+		JHoMClAd7+uCOMmvTDznwcVPJHI=
 		</data>
 		<key>NewMain.storyboardc/pSO-XX-Kvu-view-iTJ-XN-5Ml.nib/objects-11.0+.nib</key>
 		<data>
-		8GcKXCexQN4hwMGUv4HBnAbm5Ls=
+		iq71zpw9CnItmCswnud8tXFueaQ=
 		</data>
 		<key>NewMain.storyboardc/pSO-XX-Kvu-view-iTJ-XN-5Ml.nib/runtime.nib</key>
 		<data>
-		/arxK+WaiXO9yR1dGcLsJC3kw2o=
+		5Ay23FjJnhOye5tjIFYx4DrtZNY=
 		</data>
 		<key>NewMain.storyboardc/wcb-5c-6OZ-view-QQr-gE-gSm.nib/objects-11.0+.nib</key>
 		<data>
-		y4nLcPC0kSBHbA66kewhUsiGt8I=
+		k+uMKeipSoU6FtKfxZrxdtk9QLw=
 		</data>
 		<key>NewMain.storyboardc/wcb-5c-6OZ-view-QQr-gE-gSm.nib/runtime.nib</key>
 		<data>
-		3GR66q9i3aJKmWZBPuNf1iEofhQ=
+		dKUGkZKQaGJcUv4KF9KyrhJ2AEQ=
 		</data>
 		<key>NoLabelsBrightColors.json</key>
 		<data>
@@ -1550,11 +1510,11 @@
 		</data>
 		<key>StatusIndicator.nib/objects-11.0+.nib</key>
 		<data>
-		yUyFMwjGmyxeMslz7YBx07Tjt0U=
+		GfVgnmKrdlOUTi8uRiDa9HtHtPo=
 		</data>
 		<key>StatusIndicator.nib/runtime.nib</key>
 		<data>
-		Jy4sqZdWoDgkYr8GUQOHqTlcSU4=
+		e9xGqggxN/arUlRdk1KhTEf8fDU=
 		</data>
 		<key>Subtle Grayscale.json</key>
 		<data>
@@ -2210,22 +2170,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wtj8WfLpUCliU+lucGmWZPOJgUg=
+			vnSFSsu1CRn2weKNyT2NQBomJiw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pc3TVKKCKkCXJQTcp/HOAvnEPCAKdDgtab9VpnmSdVA=
+			C4nngUaUFNFcuPwheNFyxVTuMSBHRLlRjOQsJlnmOuo=
 			</data>
 		</dict>
 		<key>ActionSheetTitleCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WpHhgieCtiID8L/bF2Pqz44J8PQ=
+			kej1i0eHxhqj4oXJIO21ck2kw30=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uxvj4oVV1AIVxh8W18wd1ADYwtXZ0tugNB1Cn0baWaQ=
+			RfVPPJFKowuamP12aqrbSKfkEE2YcGtAVnsjiuxj4kA=
 			</data>
 		</dict>
 		<key>AmericanDoor.json</key>
@@ -2254,11 +2214,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P6GjQvgx8Rgvzc5U5kxG/jXUQZg=
+			5WOAOTqh9z7Bob/ZeiV9kZIyl84=
 			</data>
 			<key>hash2</key>
 			<data>
-			mQeVaRuOUZUmpOs3JUpJEQKjOdUuuvqSchL6BYZI/xg=
+			gHsURGT/qfzhbTaizPKKBHMqjgX3DeFoZXFz6uIB4tY=
 			</data>
 		</dict>
 		<key>Becomeadinosaur.json</key>
@@ -2276,66 +2236,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bd/AjjbWiJUWvZUpX4Vapp32pk4=
+			FJV16lcZCL6P6UOsg7oooMkhGBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Odq+tRGRSNqHHcXwc2/yCFTKWrj2O8UvwnqqmtcswaA=
+			5gDEVqEwAeM3ceqSnFrLymrSEO5/5u93sRliyH2H0IM=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ig+NvdKhK8ROzErUjRUTCgl2Hk4=
+			SwQTlrDtwPAM/jVuyT/Cwka0oQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			/VobCJKu9EPeP1STMgPOa3OWAUyAKq02uQYg9N0qPcI=
+			5lrK4SnXrBv+0r3rGtxaasKfqZ3Qa/Xk5P9wLLyWVjc=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lkuHjEc3NYppZ9ty56waNrwz44s=
+			189febIP4NNIUbSlgm8hD6XOkv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			UIx5nKpCovxPQeu5+d1F9EwbIZC9fqd9ehFIMDFphi8=
+			ryTv3agRV/qSf9qCL23MON0iZoP1wb0zUZspPiap0AI=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FFbX306ig2PY+n623EUdmBbBjtM=
+			3ra+/QLUlzrrWmExu8FvgGJSneU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mjNp3Ww2hLAW11ykW0H+Xor6XL7QKo1BjKTaQbT0rlA=
+			wBDyPzHCOIHWPvdqpwzR2cXQjXuDZmMwhZHJobR5AeU=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KpQfA9Mkzcsta8XtXtoP0iUcrfQ=
+			+SdbzNPhdx+DGxCAkXasnj7DCTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HYIZWfz4fxM0mKWi+nE5GR13mL257tjl83RL73XTgVU=
+			ua/Wl7HjODpxIVDWHdmFkw6F3ByLBLKGfCL0Wek5zLA=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3tVUCN6eRmKMy3VJwef0ROmuBiQ=
+			+CyJ74Qw4y+TrHist5Q/TcP1MLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dyA6ZsI9dugWRYDpetWv6Er+OrVy4zldCzFb9v9k/8Y=
+			J/XlBzcM5w0Eyhmyjs+bTxgZ+ILBbO6l0/ae8KypWwQ=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf</key>
@@ -2419,44 +2379,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EWBdPfava/wyOvJzwjjrb/duCps=
+			BoR26SfXIcXYED6F7lQKTbOMdw0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/San4bmkO/etQsjn9oEXdyINQp6ibF2eqGT+08nFcOs=
+			E4TeGSf+ESx2yyDq776Zzbkiob2bJ6+JB5hhQe3YRd4=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qdfSsxqXu+cyeOAXclm8SMqA4X0=
+			366+bxvrRnyaaZorv32FRnCoSxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			pntyMhLjHwzvqXia0TOR0kyhwisXgBbqmQjOgC3IQgo=
+			vaG4GfNEsbIh5Ac4gyuHn8EOwX4a0Y/qvdAt/4JoU4w=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n786WUj7hGtZZRTeMetonUS85d0=
+			zjlPqNnkcXW+t8PuUkGmEP2Hpy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			gGAK9lJQRrjb5ZNvbgHJPz/XC5Q3HweL2qc9boFq6Qc=
+			QH9CAZmcWpYa/Wqync0cJjx8i37HNuNIaup8zwNEtT8=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8MLrAZjGJb+fXid7ejuyQ+ZwELI=
+			dDu3Ho//AjXpnM9uSwDbwvO839g=
 			</data>
 			<key>hash2</key>
 			<data>
-			R4Ut970WSknnvidUjxy+gPLoAI7cujo1kWgKoNpMCMY=
+			Y3otlqtt+6x7RVPRVYxaIXUAdlaj7b1Ofck2X9ujsUs=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf</key>
@@ -2714,11 +2674,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ft1D61/W/r3FZmd8c8CADaYCv30=
+			9LOygLJ8md/G+jiArlv6+/DKCeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mDqS5mp/t4RQqzyC/eWiOeZLwpJCFrAFJeiSJxTBTpA=
+			+iLkOSvLVi7l47OB9jgmxSLWd3tusySOpuIt0fVXBY4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2792,11 +2752,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xgFKAKyAH3YYZtX+0y1mdX6WhVU=
+			9JSM+xgi/BkmhL/azBAcSLgW2Lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FQj5xEOMy9pKn1hl0VuJKy5TXuhj4WeZs9DSpr0LFAw=
+			u43pkRMCbeTRApxz0JgON8+HQPuY0dUrNKIrppvFrzs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2805,11 +2765,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aoBY1g8UIyyahWQVRpoecF0lWC0=
+			55835hos9MYeuRtSPu3BuheMwl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uRQh4D/PBgCzQRAPiISzrd3W7wYjUvO3tikwRFRnH+4=
+			38jw1DoLo9Yf72X2zV4NG1E/6el7fRLgPMjgCk0LYWw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2991,11 +2951,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xgFKAKyAH3YYZtX+0y1mdX6WhVU=
+			9JSM+xgi/BkmhL/azBAcSLgW2Lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FQj5xEOMy9pKn1hl0VuJKy5TXuhj4WeZs9DSpr0LFAw=
+			u43pkRMCbeTRApxz0JgON8+HQPuY0dUrNKIrppvFrzs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3017,11 +2977,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wk7gFJl7LIz/StkOL9qHUwfZuBQ=
+			bdZATDl5fH8ysvZKOhhk59Jocpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			bcx095xBFZwwIkp3aC/76ZKuwwwFHfaaCZX1GlNMhVI=
+			vLmmXGKZ+XJzEmRHJHyMkVqXYXJLcdzxmV8fblL7Mh8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3355,116 +3315,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_endcap.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JMIzIZ9izwPLkFbGpybEDcjnz7c=
-			</data>
-			<key>hash2</key>
-			<data>
-			LRveTLcg79RcFKLPlICnbpy9cMLFjvpirtWiug8ENh4=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_fast.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AAR1u0EDgizTO6c+arDush1MFXQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			ojQmJmupqVHIBdTJ93dUYMOg3Bg0OPQbpqcX5jAU+ZQ=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_fast_night.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			20aMPRfTp4RiaEJ3gmioP38pYck=
-			</data>
-			<key>hash2</key>
-			<data>
-			NGNYPzQiYUMi8ED8Wc9w8OGU2s8cjpceluuKrYcgJ2k=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_slow.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RjXvPqYlk8TLbeVMqI1rRLGGxkM=
-			</data>
-			<key>hash2</key>
-			<data>
-			9X01yy+QLrGikjXpDzB+9BC1mzC+eHC3Kmx/MnnfkOE=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_slow_night.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QSU98IRtVJFtlfNGOUjel2Eq+1c=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xs2MWbwrqL1ySHtvWB5TmPfj231cwvbRBAUGuwCjC0c=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_startcap.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G+epinU1D/ABNNd9znBSZ13ndrE=
-			</data>
-			<key>hash2</key>
-			<data>
-			sjvl6HdTaXxkEnfXJPwFre8lYgfOf9V+C6R4DAut5Z4=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stop_and_go.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AMt9ccrqHczFtAFDe6+VLmtwYEU=
-			</data>
-			<key>hash2</key>
-			<data>
-			MZ09pFs9n/74PhYWeDGIKQBaWt3Whc+PlR5gSnzeUZU=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stop_and_go_night.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iRrGWbJn8f/O0D0bmZL8s3ivjoU=
-			</data>
-			<key>hash2</key>
-			<data>
-			wq42PGVY8v/vUB0oifRyHArSZJqTJSOCuGUtufxje24=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stopped.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gdjNv/dDFdFHlN/jV6678f3dtEo=
-			</data>
-			<key>hash2</key>
-			<data>
-			NcCwwed+m/7rIH8OIgMrW/j6rULM7KVhDLoe72dckYM=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/traffic_stopped_night.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DErXBfMg+reu+FeXyAGYDtoI3ZI=
-			</data>
-			<key>hash2</key>
-			<data>
-			BzNaQs9vMeZ98yydG7Sx+S8Rtb/RQqEGdlP/NWl5jEA=
-			</data>
-		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings</key>
 		<dict>
 			<key>hash</key>
@@ -3534,11 +3384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8P230nRjfYIZ48JgMcXHbhv6Tn0=
+			xFuQyt0oBeMYNm3U5xK38riXlTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			cvHNriP2fBAUNk0jHANP4LFqU0ZL4c0Xy4E4WwuB2qg=
+			EE1kTwDCH+H8tsoKd64d6tkAbom+wboxSIGz0y/ncOQ=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/bubble_left.png</key>
@@ -3677,22 +3527,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kcxaexbTn6EsmMy0z7mtxvsBsbw=
+			Epco6rDgESnntJo9zot5CIgdHss=
 			</data>
 			<key>hash2</key>
 			<data>
-			gXLTcUwXX+khsyOz7S82nq5QqSTtVnnfR9pKAVeInk4=
+			96nBUYPCpepttfbbfzY7jHGAYSka06AwzbHNGj8DCi4=
 			</data>
 		</dict>
 		<key>GooglePlaces.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8XYcfsSRjH2aMGBn10R3jEgBmo0=
+			QCHZcrMx6V76PJ13wiDZigQxttg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jk818vL1X5XQaPftruC2LAcSDQ43JENEaDjPs/nxGYk=
+			8Mx/+vQWip1Ws6FAyLZmu96qYOokNoZfr7YfoyOFMxw=
 			</data>
 		</dict>
 		<key>GooglePlaces.bundle/ar.lproj/GooglePlaces.strings</key>
@@ -3725,11 +3575,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vFjcNTYW2Dq5gX92sjO3gDLU7io=
+			VGhTVQmopiIazrIVnjHPycvO/K0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5pkDXx0XIyLgrBDyy/qN3IHQAdjoOUes0BF/rdTNQv4=
+			6KYm0L6jkWnEW5eu+Ld+REOv9YnTRZEqtW7IeV3z2yM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3920,11 +3770,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OP0MD6Qf1tnTj216fpO+H2o+UWw=
+			a7YFDK5kzACSRsO4c9OoYa6k+dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			N+1dlNmGw7za4f2rVPixAbVtFGZk95FnH9GvTvebBlg=
+			sXl/1xz2eb2bMvAsIHsDMY8N9G63LpVig86yqvhU7LE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4102,11 +3952,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kcxaexbTn6EsmMy0z7mtxvsBsbw=
+			Epco6rDgESnntJo9zot5CIgdHss=
 			</data>
 			<key>hash2</key>
 			<data>
-			gXLTcUwXX+khsyOz7S82nq5QqSTtVnnfR9pKAVeInk4=
+			96nBUYPCpepttfbbfzY7jHGAYSka06AwzbHNGj8DCi4=
 			</data>
 		</dict>
 		<key>GooglePlaces.bundle/pl.lproj/GooglePlaces.strings</key>
@@ -4349,11 +4199,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SMbqbb445CorZZvuaXpI28GpgOc=
+			CNfIO92+b5RHWbg3OmelMvNJLdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jy6yz4N2cjoKJIIlHoLRdApA3AJhsfHBjeRojc/fLKU=
+			xjbp6+sACclsnX9/E3IKP+xDnmiG+TOI6EdjEdpVY6s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4484,22 +4334,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b8dhfEzJ6OftOGcDGMNPCkcBZjs=
+			CDC43j0JiXXjTna4d/9q5sTcEZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RNFYO59X6gufH8tS/5MEn3mFiAH9y4A9C57c+snlue4=
+			kjFjgMTO0ekr1gcdNA2WFgcEXqu9JJ8KPU5cnUmOmMI=
 			</data>
 		</dict>
 		<key>HUD.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tvfwEwCNarBz/t2uwSiFZ0LOZoA=
+			YI9MbJtcAJYUeS5EuNIiKYsrRfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0sVOGofuTcKKcz8UxUKqHeo9Q9sy++eMH7EV+VXsFdY=
+			6gbCIYbXzpAzCiZhPaYNDAG2PiOmDAKV24jpVriYV8Q=
 			</data>
 		</dict>
 		<key>Headers/GFBase32Utils.h</key>
@@ -4759,11 +4609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VNOjX18pcxMRa4IRBvCKH1HqOQ0=
+			+oBDTxnwB7hr4I1nZo5J1oeOLIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OcmJPw2E7P3SXzFcYVXa3HtYG13PMC+FzEaJDo5aBTk=
+			MtfkyyEqDpxicgtyNEWlH7zuGXqa3hLQyqQHDJXRBk8=
 			</data>
 		</dict>
 		<key>Headers/SnappersSDK.h</key>
@@ -4803,11 +4653,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w/ZZ7ab93j1rnk0RWwERTrd2dB0=
+			TGfCbVd6trz/2uRnfWji121GK+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			qaj9fcmZdGjnyWbY7urc8voBRBR/bZdUOmzLajvn+yQ=
+			pYN3Oe6QQaz3K2gUknL6WpR/U3TV1bIkvct1XyWKPrY=
 			</data>
 		</dict>
 		<key>Modules/SnappersSDK.swiftmodule/arm64.swiftdoc</key>
@@ -4825,11 +4675,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gPOA4kTNQBBKy7xOg61LeqdECIU=
+			J3nLSz3VYRBiQwSWyrsZT9LtLpA=
 			</data>
 			<key>hash2</key>
 			<data>
-			66iTWUtgPyBytu5183aEONDKlyceM5bZJ10QS75DKqM=
+			qKZgJlCB4PvvB4CQlTpk0+6gItMdsJo12+Fns6EuDKw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -4858,429 +4708,429 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gU3jGP7X1NfAHhabYLwfslqvNc8=
+			t24IXHYq/yR95OmG//IRxXACZiI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZAfAk6xNSQ28tkhEIj4VgnsHrEmb0ef+OgnNtEoIyG4=
+			sjwH3wAyUAWvytH9TXSE8yFn4hlmsUKm1NODB6PdTmk=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/9Bg-JV-S5v-view-oOl-35-udH.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TfR1BU2V3W2LLBos63vM9+LQK3Y=
+			Hs/uiNDk3a1VGvY2P4kqHqFItJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZMtvXDvC4whL7dwRfO/grxqtI2BF+iDmyEt7qpwVqA=
+			nZvJzUVnNyw8njcxNVt+AdMV7R5Ra+aUwqsFDS0h8aQ=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/AffiliateLoginViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V4IHXXzlIwABwFPilCBED1lgO5A=
+			kuYUD2v+bILARtmFu8JrnghHUZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			XM0BEuIQS639a8/bwZrMGqqJNC7eb/x8gdjTyKMGTcI=
+			OWft/t7KQHmGga+5GKbHQlwdVccwt5zH3B/ga5O0uxU=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/AffiliateLoginViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y6J5gnSOflLtTtYImSkMhNya0Uc=
+			QkAn9whI0WW+86l65iIc1+fLI5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			rgwCpSgHUwq9Ib5X8dD4qjdfGL5U3OylIwB/Rwpx/p8=
+			+MMX+6pbzBvRjmg6Id2NibiDdjV/yq+X8pmSPwlLGJU=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/C5V-0O-v3e-view-bfl-m4-MXT.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OcMjdkZY7Q1uAjm/P3nqbcsRE5M=
+			5W/6C1l/NqOXwY1KtGe7j0BJLCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			0R9m1kqhG+8GD32Kuvei7VaNQ629a99icTk4V0KO0+0=
+			l+GiZO115khiY6n+vUvMhNlnCWbyEXE0zHO32Zcoo64=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/C5V-0O-v3e-view-bfl-m4-MXT.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cRCsvfzL6/N9MfwFCT0g4YhC/s8=
+			q4oGAaS2MvhDjKC4nhkfODDyXL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nvARW7bYcV8QXQEvaF2ue13mInSRF9Ygr1xtIw9ztGY=
+			OaUk30xYO0HjolWIcgRzqtHecVn8PRFx3kAT3QLAkAo=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/EventsTableViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yxkP9gx7Z3TA97lXEs41av0TcO8=
+			I/vMLqJZUrEwhDO2eYs+mGal5Sk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ydZ9tI3HDyTHO/71SR49Ze10IZJL5hQAUihjOqKzwAg=
+			OJYUTf2Z8OQ9TK/ADq6pBVozxcch8Lh76KV8nK+qWXQ=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/EventsTableViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5QJOWHsgjDkRBdld2T5rLdl0ook=
+			RtMAcNvaqtp8L54jCoR+0e5LFH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			93tnoANestYH9Ymov7kzm09M8MOz3difAJJFyycZY+g=
+			k9BrRePG97QseQtW6SF23UmbpwCytJ7w8gG6cj/4j+E=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Umxs3nkuaETeShA5jU5YVVzQAk=
+			dN5f0+1bnnHRkNtGpEupu4i4NHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ResSN/HjCTxCzUskIQjsloLqLZAfcsvxkdYQj7D/O7I=
+			pZKFTQX3cxcJMftSBHsV6YQzHYreCtBHtq8BQSwhuaQ=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/K2l-TT-Sxp-view-nf0-io-dmc.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AbWtlt6HKp/nIwOLkTiSJ/JN+14=
+			GOb2wduSNsReW+HXvWVkCpeT8Fg=
 			</data>
 			<key>hash2</key>
 			<data>
-			p7NZOihV52D9UzvQhpdhWdHMJCHIZN/9wJihRqWXxMA=
+			jqOtFr3CibSSjAmVKO8aTI35AB/RF0+0F9NJsA6TqT4=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/K2l-TT-Sxp-view-nf0-io-dmc.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C7T7IdHpRCeEFfbGKBu9B/+1jOI=
+			StEIkZyv1T2wOft7arDLZIc0ZnM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MQlUiRkSnVr2AuB/+HQ8m62Z9R5B2CRL0B7And4iagg=
+			M//RBAY6UXhBckhmVr/AGWgf9rycxqFMM8vUkqC4INc=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/LocationAuthorizationViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vwPtSdUJTRjMmFPCWjALp5VZSLQ=
+			bSvInitrsN1W1s5I6WvWz00Vf1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			LEyPsSsdoByMHdLgdkr1Gd6mvaB6/eWg1WTaLUM7ShA=
+			3dQdGD0KjfEFt8ct0MG5sX/4HQm4/4ZbsOHMjm/becA=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/LocationAuthorizationViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D8ftH3XhuGUqaodBv7ruQlSpaCg=
+			8vnrfKs8yxW5HLOrddRv/Bq7KqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DM2+j05OLZAOfJrIRJsySD0gBPVuMI/fblU39ibzITQ=
+			R0xRDXS5BY+nTKCV/hNr7tfIA+GOeWysyvurOV45WXo=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/MainViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ein8Rg2fu1FOJAlDHoq+mx8VTZ0=
+			tKNktjtl/J4uQB63Dk99N6MyIPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			q79L5A5X8L5Ir5Cg/+/t8dut4XpKStfJRoyS4P8vuEQ=
+			uWOTAtn0e0PN9tSnkAO0Dz6juVDT9flLE6RMe9vpd3o=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/MainViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/KtbQQ6zGrJCwgl22lhB9sMI12o=
+			IYc2Dgu1f/HSMKehGajU8UEgEMc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jp6Tz4RPXAh/AjE+8ccYUk/y7WQP4D6IQ0aHsXfX3b0=
+			+Rn4vaRI2m02ujbQn1iqrkLoiiUzCm+5iZe4NI6r/I0=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/NavigationViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tiOiE4HceBEpvdOBT+uv0aEgU44=
+			m7gzNnH86EjquYPsBsmFHWo0Jak=
 			</data>
 			<key>hash2</key>
 			<data>
-			6xSUbFLubNKtwlUh/UrkNDgiC9KWKI+YbdlBk4N9D0Q=
+			8znJjv1Nj9SrkiQ7ngFM6chNFU1FxA4df+nEtZF4+/M=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/NavigationViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9OIeEn+xXJk+iF/j1jeqIVIaEbw=
+			fhh3oTfPRnMztYmkJhSKNsa7NfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yBPeGYZdBDW6UlXM0hDQbe3EKdE8Meh0JnpvF0/ey1s=
+			pfdxk+7LOG8v8nCCe5csP9+orKZKkXJQt7a5KEpzi3Y=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-9Bg-JV-S5v.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w9mjRoFBy3AnnFBrLdBlA9cdSo4=
+			MQZQjxVo3+88IzYsPMiRN1/wJ0E=
 			</data>
 			<key>hash2</key>
 			<data>
-			CGMkJX1giG0EkgwGqbi/Adw/rU8PLHFFiRLkxwPrhHo=
+			yKKiQCMo4UGZDR6CpNzvKBA0NG4/hIGznwhfUUesPq0=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-9Bg-JV-S5v.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Tg45jyqrj2aPN54thbXItlBh6F8=
+			SEWP5+TF46JPnITTaULLzX1DpMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7TgoXjsFKgNAOJ2v1KYEXyc3K8zKu+6M/0ZP1aJFOPA=
+			qZw61ZRpE2G8hKzrBUfr+8PkkuAK18Fk8XliN+ldl9s=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-Z57-SK-Xgd.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VC25H6UFnk9hnp2ifIdppQ15jQ4=
+			stw3LVwleE5Th2ScmeWLtmJ70FY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Pma8guwOddCuIoLt4avETNVv5njzuIfQNONYfSlcIY=
+			CYi8fRUer6eMDTKqTtjL42e7OLBE74JYHogobbXSsdw=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-Z57-SK-Xgd.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A4ocSU3mkwzID09ZG83nhom4R60=
+			FDI7X+uqqLaRaZfdpq5kERIAABk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gw5Uh07o6fqeOajRVfKzpSPZNNcXBiT7pqDqwz0Ux/I=
+			vc6Afm896UTDaC9Pq4H8Vz4Jf/1l4Bdaj+uTHTm+5rk=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-pSO-XX-Kvu.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zf73btK1pA/FM++/qjZww/zmJtI=
+			HZXB9B5u0au+XGl1JqePipW5UJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ii01M4p236hz5j6cx2bwrxGujdaC4jkmgpqBbqRq2n4=
+			l5Q8JoYYnaP2U882hHTTezxR3//Rd+twjiXe3fFxuLw=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-pSO-XX-Kvu.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3RnjFWrVDRqfRSvQJAQ57jGtpzA=
+			D21zLgC+M89ObC4I+C4WulyhfxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			PPHnVmTzOjlVI9SGoORmNsPY8PhOp59WUC+kF1b0y94=
+			838nr7zvMbcgWT1+SYb0t1bjq76Oq+PO9BduJnvk/+g=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-wcb-5c-6OZ.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dP+IkbdQ7Npb3J0eHQ0bWZGDA7E=
+			WR3EG3Qa+uziK7vUMB+wHb/qn6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			hBZlWAKIT3tJaUI8f9g4JA6cBCBANsTegj54yi4nuQU=
+			37vRagaql8Cp9scN5OVwrDk9u970Zt4ms2U42GcOR6o=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/UIViewController-wcb-5c-6OZ.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iayskOrIFti2N/3VZus29/S75Og=
+			3kYFCi3gtIEhxPNf58iEeXX71Vk=
 			</data>
 			<key>hash2</key>
 			<data>
-			asBrXn24dicJtPS2SvxQfeIKK9xdg7MCYo/lPiaIOIs=
+			5s7NBmwk1Xt/2o6FshQ2LSGgFpv27QzbJBTByHW3eUw=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/VQk-xy-fLN-view-Bec-Zr-O2Y.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1qu0xMhIKpFccwluGP0dsf+i15k=
+			6wg/54fHqNncougZ4lPOgj0QPqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			BE86v4QYqvaOWi5xb+2iXEZZ2gRL6X7MYdFh3hktKGY=
+			MCoXvPZHVYtsgdZDq6Bc70w/Um5Og/GPYplMLOL+LMk=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/VQk-xy-fLN-view-Bec-Zr-O2Y.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QjHihA4hYBR4VmCcivIYNTYl35w=
+			pcLxDq3OHEHYF/pd4MqRTUeL2Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CdmZ+v8vy3yqbdqS+F9KUl93xLnqxS/HJj+Hj3D5fuY=
+			Mmb3w+Xh/IleBgN0rpAhnABisLQbHakccRDV3imWP4Q=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/VideoRecorderViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fIBAIfggfEXtilZkll7tm354/4E=
+			Coh2rk8h5Nk3aA0JCU/G4tDObA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAY63WX3OiSlDDWOmVweaoVOlj/puxntU1CVRrqQxs8=
+			rpFp/yQAzpAQqYAylShBtiw6rZhum90ZsKSsiT99R3M=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/VideoRecorderViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kRlCtGVFLqtWR+sp1na04LE/Uo4=
+			OqxqD4KhgvpKNB5WyR+L1ghCb5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			otY+6O47lW0r8N3wyneHjWsabra/Irb9pb4+S283J0g=
+			g6Zg5lUaNZh0WXN6Nd72JF/Lf2yeJxNmgH2pkwE93v4=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/Xc3-jf-Gcf-view-6rX-vE-9jH.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			36ngbqCLrB1dCNM/jaFtLka5pIE=
+			m7X7oncuWOS0+CN/RdPM3vG5etw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7TmDAz73M19LTH7YZVkHmV8gdlixXFW/MdFHjBdNPBQ=
+			uC5xpxLYXvYwuPqm/JIcBVxdcmjdR//0bA4/FYhYTiE=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/Xc3-jf-Gcf-view-6rX-vE-9jH.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dQXkYP69ckSAPTAqrIDc/pGm/mw=
+			sXw83GNnhdVQOovqVrHR8vvbmpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			feg5ZAysBXlMBybgV9vaI/Gt3khcvEcNjxINRLZ8WTY=
+			8ol7KoojtR7v23pNpnNJtyDKXsS0flUYCfPlwLUo7iw=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/Z57-SK-Xgd-view-bgI-lE-Rgd.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R8cyKT073lczeRIH/ropuMy7VvI=
+			Rm+dpLLRqaQf9yohfiW1o5bR4p8=
 			</data>
 			<key>hash2</key>
 			<data>
-			87YCtTQiI8f5MXe38lT+wPlf0qhstGU5fRX7WyYKzEU=
+			sigwXprmg4nS0eQM57tfFQv0J4pVYL1tUXhtfEBJOl0=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/Z57-SK-Xgd-view-bgI-lE-Rgd.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PSup37TL1QEH+TdKM88yMwYg6VQ=
+			BwxtV7KqD/kATL9irLH171dShvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TkX1MZ1OrFuw8UeMjZ/e3B0HwNdODsqY0QmrtuvEmGc=
+			V0yl0OBiqJNnYegCXYClvZmaErf72nf6/zKVDyw0Zbw=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/kJE-9S-4dV-view-kMx-Tf-anJ.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZPzSt3Jq7NJ5E3CYBrRpvec9g/Q=
+			yu2HWbY9g3LTKBinniieaxpnjiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sjLBfmfvjzVrL4KOjPLiXsbE1A9rVihwGUc2DRdgh1U=
+			L0saT2CkMNN4/9tiVi++9pI0hY+aPYaK3Z0XIiEuTsw=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/kJE-9S-4dV-view-kMx-Tf-anJ.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iqxb16IFrf8wKhYeMp/8sZHIVp0=
+			JHoMClAd7+uCOMmvTDznwcVPJHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6zBQhzCNg4RT/1ywhq2wAA+K8cdjj/YGRbTtO7eZxE0=
+			AEqd8o400K5qv1sD/nG7vXlFfJn5+b+N06LZ4PoqEbg=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/pSO-XX-Kvu-view-iTJ-XN-5Ml.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8GcKXCexQN4hwMGUv4HBnAbm5Ls=
+			iq71zpw9CnItmCswnud8tXFueaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYavQFOOdvP0RjBkDd7/7crWedrO9jp8lhGwDzT/eyc=
+			l/MwIIQam73BWA3i7IfWtBSJo1m8ea6G6+lZc+ojkec=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/pSO-XX-Kvu-view-iTJ-XN-5Ml.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/arxK+WaiXO9yR1dGcLsJC3kw2o=
+			5Ay23FjJnhOye5tjIFYx4DrtZNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bnaH76aiX6oO7FHhARVS0KEX6939P5KOlwz55nlPahM=
+			wRvh5zV7w9qJYH82GgWCcDjkRieeG430Kd3xU4Yiqcs=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/wcb-5c-6OZ-view-QQr-gE-gSm.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y4nLcPC0kSBHbA66kewhUsiGt8I=
+			k+uMKeipSoU6FtKfxZrxdtk9QLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZMWocTkqKI9ecli3MeItLAecMFW/Vb6mw2WlZJSbAA=
+			TwTjv7MDtHvlVaRcyOmJG8/rxlBRfyjknuejohjB2P8=
 			</data>
 		</dict>
 		<key>NewMain.storyboardc/wcb-5c-6OZ-view-QQr-gE-gSm.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3GR66q9i3aJKmWZBPuNf1iEofhQ=
+			dKUGkZKQaGJcUv4KF9KyrhJ2AEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yzxxBGR37MT8nlDh/eaVlMheLj8BPBMZ6q2PFDLS948=
+			FWGA4M6T+gEcYsgmvNgoT6xah0eZ2+5qzpL0f/fP4rs=
 			</data>
 		</dict>
 		<key>NoLabelsBrightColors.json</key>
@@ -5364,22 +5214,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yUyFMwjGmyxeMslz7YBx07Tjt0U=
+			GfVgnmKrdlOUTi8uRiDa9HtHtPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+rDHPBhlwdJV+fDX71bz2cu7FfqIt2zbSYTOqW7iujU=
+			CRXMow4iQ4Zog8r5oEuSoCYSWtHKPoaKlCxvdZaQKkI=
 			</data>
 		</dict>
 		<key>StatusIndicator.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jy4sqZdWoDgkYr8GUQOHqTlcSU4=
+			e9xGqggxN/arUlRdk1KhTEf8fDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2i2qCZy3vSS/LT1ed+xnCx6Wl3t5/SYLq0i/pZfk8rQ=
+			GsxPLyy4aqrXgY+1zlTK3uJzksnNpSF7KJbps85Um9Q=
 			</data>
 		</dict>
 		<key>Subtle Grayscale.json</key>

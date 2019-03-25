@@ -145,7 +145,7 @@ done
 ```
 
 ## Step 7: Add this line in your AppDelegate class
-This allows Snappers to determine if application was launched from a invitation notification
+This allows Snappers to determine if the application was launched from an invitation notification
 ```swift 
 import SnappersSDK
 .
@@ -188,7 +188,7 @@ Objective-C:
  }
 ```
 
-## Step 8: Present events-map view
+## Step 9: Present events-map view
 Once initialized succsefully, you can present the events-map view as follows:
 
 Swift:  
@@ -206,7 +206,7 @@ Objective-C:
 }]
 ```
 
-## Step 9: Test event invitation notification:
+## Step 10: Test event invitation notification:
 For testing purposes only, you can mockup a broadcast invitation notification
 
 Swift:

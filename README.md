@@ -144,7 +144,18 @@ mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 done
 ```
 
-## Step 7: Initialize Snappers SDK
+## Step 7: Add this line in your AppDelegate class
+```swift 
+import SnappersSDK
+.
+.
+.
+func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        SnappersSDK.shared.handleNotification(userInfo: userInfo)
+}
+}
+```
+## Step 8: Initialize Snappers SDK
 From your ViewController's ​**viewDidLoad​​** method​, use the token and code obtained in stage 2, to initialize the SDK.  
 Check for errors in the callback to ensure successful initialization
 

@@ -144,7 +144,19 @@ mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 done
 ```
 
-## Step 7: Initialize Snappers SDK
+## Step 7: Add this line in your AppDelegate class
+This allows Snappers to handle notifications that used to launch your application
+```swift 
+import SnappersSDK
+.
+.
+.
+func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        SnappersSDK.shared.handleNotification(userInfo: userInfo)
+}
+
+```
+## Step 8: Initialize Snappers SDK
 From your ViewController's ​**viewDidLoad​​** method​, use the token and code obtained in stage 2, to initialize the SDK.  
 Check for errors in the callback to ensure successful initialization
 
@@ -176,7 +188,7 @@ Objective-C:
  }
 ```
 
-## Step 8: Present events-map view
+## Step 9: Present events-map view
 Once initialized succsefully, you can present the events-map view as follows:
 
 Swift:  
@@ -194,7 +206,7 @@ Objective-C:
 }]
 ```
 
-## Step 9: Test event invitation notification:
+## Step 10: Test event invitation notification:
 For testing purposes only, you can mockup a broadcast invitation notification
 
 Swift:

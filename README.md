@@ -145,7 +145,7 @@ done
 ```
 
 ## Step 7: Add this line in your AppDelegate class
-this allows Snappers to determine if application was launched from a invitation notification
+This allows Snappers to determine if application was launched from a invitation notification
 ```swift 
 import SnappersSDK
 .

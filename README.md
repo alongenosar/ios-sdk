@@ -145,6 +145,7 @@ done
 ```
 
 ## Step 7: Add this line in your AppDelegate class
+this allows Snappers to determine if application was launched from a invitation notification
 ```swift 
 import SnappersSDK
 .
@@ -153,7 +154,7 @@ import SnappersSDK
 func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         SnappersSDK.shared.handleNotification(userInfo: userInfo)
 }
-}
+
 ```
 ## Step 8: Initialize Snappers SDK
 From your ViewController's ​**viewDidLoad​​** method​, use the token and code obtained in stage 2, to initialize the SDK.  

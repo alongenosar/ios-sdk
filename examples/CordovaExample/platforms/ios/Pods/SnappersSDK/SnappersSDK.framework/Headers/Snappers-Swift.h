@@ -504,7 +504,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Repository *
 @property (nonatomic, strong) Reporter * _Nullable reporter;
 @property (nonatomic, strong) StreamingServer * _Nullable server;
 @property (nonatomic, copy) NSString * _Nullable clientID;
-@property (nonatomic, copy) NSString * _Nullable clientKey;
+@property (nonatomic, copy) NSString * _Nullable token;
+@property (nonatomic, copy) NSString * _Nullable secret;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable invitationData;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (NSString * _Nonnull)versionSigniture SWIFT_WARN_UNUSED_RESULT;
@@ -551,6 +552,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull stam
 @class UNNotification;
 
 @interface SnappersSDK (SWIFT_EXTENSION(SnappersSDK))
+- (BOOL)handleNotificationWithUserInfo:(NSDictionary * _Nullable)userInfo;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center openSettingsForNotification:(UNNotification * _Nullable)notification;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;

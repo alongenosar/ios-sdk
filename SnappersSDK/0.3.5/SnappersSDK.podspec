@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "SnappersSDK"
   s.version      =  "0.3.5"
-  s.swift_version = "3.0"
+  s.swift_version = "4.0"
   s.summary      = "SnappersSDK allows developers to integrate Snapper's functionality into their project"
   s.description  = "SnappersSDK allows developers to integrate Snapper's functionality into their project SnappersSDK allows developers to integrate Snapper's functionality into their project"
   s.homepage     = "http://snappers.tv"

@@ -6,13 +6,11 @@
 Add this to your Podfile 
 
 ```ruby
-    source 'https://github.com/Snappers-tv/ios-sdk.git'
-    source 'https://github.com/cocoaPods/Specs.git'
     target 'Your target name' do
     use_frameworks!
     inhibit_all_warnings!
  
-    pod 'SnappersSDK'
+    pod 'SnappersSDK', :git => 'https://github.com/Snappers-tv/ios-sdk'
     
     end
 ```

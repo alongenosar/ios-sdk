@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "SnappersSDK": {
+      "PACKAGE_NAME": "tv.snappers.affiliates"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "tv.snappers.affiliates"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "tv.snappers.affiliates"
+    },
+    "cordova-plugin-cocoapod-support": {
+      "PACKAGE_NAME": "tv.snappers.affiliates"
+    }
+  }
+}

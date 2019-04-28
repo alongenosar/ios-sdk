@@ -22,13 +22,5 @@
     },
     "is_top_level": false,
     "variables": {}
-  },
-  "SnappersSDK": {
-    "source": {
-      "type": "registry",
-      "id": "file:../../CordovaPlugin/SnappersSDK"
-    },
-    "is_top_level": true,
-    "variables": {}
   }
 }

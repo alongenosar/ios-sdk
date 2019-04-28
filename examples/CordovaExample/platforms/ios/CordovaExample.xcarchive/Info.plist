@@ -7,7 +7,7 @@
 		<key>ApplicationPath</key>
 		<string>Applications/CordovaExample.app</string>
 		<key>CFBundleIdentifier</key>
-		<string>tv.snappers.affiliates</string>
+		<string>tv.snappers.stream</string>
 		<key>CFBundleShortVersionString</key>
 		<string>1.0.0</string>
 		<key>CFBundleVersion</key>
@@ -20,7 +20,7 @@
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2019-03-13T12:04:44Z</date>
+	<date>2019-04-21T14:54:48Z</date>
 	<key>Name</key>
 	<string>CordovaExample</string>
 	<key>SchemeName</key>

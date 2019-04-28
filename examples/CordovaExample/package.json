@@ -19,8 +19,7 @@
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {},
-            "SnappersSDK": {}
+            "cordova-plugin-whitelist": {}
         },
         "platforms": [
             "ios"

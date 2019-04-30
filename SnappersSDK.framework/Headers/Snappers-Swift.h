@@ -530,9 +530,7 @@ SWIFT_CLASS("_TtC11SnappersSDK11SnappersSDK")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SnappersSDK * _Nonnull shared;)
 + (SnappersSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(SnappersSDK * _Nonnull)value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull stam;)
-+ (NSString * _Nonnull)stam SWIFT_WARN_UNUSED_RESULT;
-+ (void)setStam:(NSString * _Nonnull)value;
+@property (nonatomic, readonly) BOOL isBusy;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @property (nonatomic, readonly, copy) NSString * _Nonnull version;

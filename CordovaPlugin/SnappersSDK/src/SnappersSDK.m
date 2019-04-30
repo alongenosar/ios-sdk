@@ -11,6 +11,11 @@
                                      ];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
+- (void) getVersion:(CDVInvokedUrlCommand *)command {
+    [self.commandDelegate runInBackground:^{
+        [self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:SnappersSDK.shared.version] callbackId:command.callbackId];
+    }];
+}
 - (void) identify:(CDVInvokedUrlCommand *)command {
     [self.commandDelegate runInBackground:^{
         NSString *token = command.arguments[0];

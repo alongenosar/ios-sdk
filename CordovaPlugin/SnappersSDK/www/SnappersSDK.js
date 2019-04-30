@@ -1,4 +1,11 @@
 var exec = require('cordova/exec');
+exports.getVersion = function (callback) {
+    exec( 
+     result => { if(callback) callback(result)},
+     error => { if(callback) callback(error['error'])},
+    'SnappersSDK','getVersion',[]
+    )
+}
 exports.identify = function (token,secret, callback) {
     exec( 
      result => { if(callback) callback(null)},
